@@ -281,7 +281,8 @@
       animation-name: benAnim;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
-      animation-duration: 2s;
+      animation-duration: 5s;
+
       padding: 8px;
       .benCard{
         position: relative;
@@ -377,21 +378,26 @@
 
     .col-md-3:nth-child(2){
       margin-top: 50px;
+      animation-delay: 0.5s;
     }
 
     .col-md-3:nth-child(3){
       margin-top: 100px;
+      animation-delay: 1s;
+
     }
     .col-md-3:nth-child(4){
       margin-top: 150px;
+      animation-delay: 1.5s;
+
     }
 
 
     @keyframes benAnim {
       25%{
-        .col-md-3:nth-child(2){
+
          transform: translateY(20px);
-        }
+
       }
 
     }
