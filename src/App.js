@@ -4,6 +4,7 @@ import ServicePage from "./pages/ServicePage";
 import CasesPage from "./pages/CasesPage";
 import CompanyPage from "./pages/CompanyPage";
 import SmmPage from "./pages/SmmPage";
+import MarcetingPage from "./pages/MarcetingPage";
 
 function App() {
    return (
@@ -15,6 +16,7 @@ function App() {
                <Route path="/cases" exact component={CasesPage}/>
                <Route path="/about" exact component={CompanyPage}/>
                <Route path="/smm" exact component={SmmPage}/>
+               <Route path="/marceting" exact component={MarcetingPage}/>
             </Switch>
 
          </BrowserRouter>
