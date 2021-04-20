@@ -73,6 +73,11 @@ html{
               .nav-link {
                 padding: 0;
 
+                a{
+                  img{
+                    width: 36px;
+                  }
+                }
                 .cons {
                   color: #fff;
 
@@ -235,7 +240,7 @@ html{
 
           border: 3px solid;
 
-          border-image-source: linear-gradient(135deg, #7B37FF 0%, rgba(155, 111, 238, 0) 36.1%, rgba(123, 127, 234, 0) 54.37%, #18B2DE 100%);
+          border-image-source: linear-gradient(135deg, #7B37FF 0%, rgba(32, 176, 253, 0) 36.1%, rgba(123, 127, 234, 0) 54.37%, #18B2DE 100%);
 
 
           img {
@@ -518,4 +523,200 @@ html{
   100% {
     background-position-x: 100%;
   }
+}
+
+
+
+.Cases{
+  margin: 0;
+  padding: 0;
+
+  h2 {
+    color: #362836;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 120px;
+  }
+
+  h3 {
+    font-size: 44px;
+
+    margin-bottom: 50px;
+    font-weight: 600;
+
+    background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFD66B;
+
+    display: table;
+  }
+
+  .row{
+    margin: 0;
+    padding: 0;
+    .col-md-6{
+      margin: 0;
+      padding: 0;
+      img{
+        width: 100% ;
+      }
+    }
+  }
+}
+
+.Clients{
+  h2 {
+    color: #362836;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 120px;
+  }
+
+  h3 {
+    font-size: 44px;
+
+    margin-bottom: 50px;
+    font-weight: 600;
+
+    background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFD66B;
+
+    display: table;
+  }
+
+  .row{
+    .hour{
+      background: linear-gradient(359.49deg, #DFE9F3 0.39%, #FFFFFF 100.88%);
+      border-radius: 20px;
+      width: 100px;
+      height: 140px;
+      position: relative;
+      div{
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        background-color: #999999;
+        z-index: 1;
+      }
+      h1{
+        color: #323232;
+        margin-top: 5px;
+        font-size: 98px;
+        text-align: center;
+        position: relative;
+        z-index: 111;
+      }
+    }
+  }
+  .carouselItem{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    img{
+      width: 80%;
+    }
+  }
+p{
+  color: #fff;
+  font-size: 30px;
+  font-weight: normal;
+  padding-right: 50px;
+  margin-bottom: 30px;
+}
+  .row{
+    margin-top: 50px;
+    .col-md-6{
+
+
+
+
+
+
+      a{
+
+        background: #FF4B5C;
+        border: 3px solid #FFFFFF;
+        box-sizing: border-box;
+        color: #fff;
+        border-radius: 40px;
+        font-size: 24px;
+        padding: 10px 20px 15px 20px;
+
+
+        font-weight: normal;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+
+
+.Footer{
+
+  margin-top: 100px;
+  .line{
+    height: 1px;
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+  h2{
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-top: 50px;
+    font-weight: normal;
+  }
+  h3 {
+    font-size: 44px;
+
+    font-weight: 600;
+
+    background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFD66B;
+
+    display: table;
+
+    margin: 50px auto;
+  }
+  .row{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+  }
+
+  p{
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+  }
+
+
+  h6{
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 100px;
+  }
+
+
+
+
 }
