@@ -13,7 +13,7 @@ const ServicePage = (props) => {
          <ServiceHeader className="mb-100" image="bg-services.png" text="Услуги"/>
          <Services/>
          <Posts/>
-          <Application />
+         <Application />
          <Footer/>
       </>
    );
