@@ -14,10 +14,10 @@ const Navbar = (props) => {
                  <div className="col-md-6">
                      <div className="navbar">
                          <div ><Link to='/' className={`nav-link ${props.history.location.pathname === '/' && 'active'}`}>Главная</Link></div>
-                         <div ><Link to='/' className={`nav-link ${props.history.location.pathname === '/cases' && 'active'}`}>Кейсы</Link></div>
+                         <div ><Link to='/cases' className={`nav-link ${props.history.location.pathname === '/cases' && 'active'}`}>Кейсы</Link></div>
                          <div ><Link to='/services' className={`nav-link ${props.history.location.pathname === '/services' && 'active'}`}>Услуги</Link></div>
                          <div ><Link to='/' className={`nav-link ${props.history.location.pathname === '/blog' && 'active'}`}>Блог</Link></div>
-                         <div ><Link to='/' className={`nav-link ${props.history.location.pathname === '/about' && 'active'}`}>О нас</Link></div>
+                         <div ><Link to='/about' className={`nav-link ${props.history.location.pathname === '/about' && 'active'}`}>О нас</Link></div>
                          <div ><Link to='/' className="nav-link lang">RU</Link></div>
                          <div ><Link to='/' className="nav-link lang">EN</Link></div>
                      </div>
