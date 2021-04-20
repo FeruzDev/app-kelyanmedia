@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <div className="Navbar">
 
@@ -9,17 +9,17 @@ const Navbar = () => {
              <div className="row">
                  <div className="col-md-2">
 
-                     <a className="navbar-brand" href="#">KELYAN<b >MEDIA</b></a>
+                     <Link className="navbar-brand" to="/">KELYAN<b >MEDIA</b></Link>
                  </div>
                  <div className="col-md-6">
                      <div className="navbar">
-                         <div className="nav-link"><a>Главная</a></div>
-                         <div className="nav-link"><a>Кейсы</a></div>
-                         <div className="nav-link"><a>Услуги</a></div>
-                         <div className="nav-link"><a>Блог</a></div>
-                         <div className="nav-link"><a>О нас</a></div>
-                         <div className="nav-link"><a>RU</a></div>
-                         <div className="nav-link"><a>EN</a></div>
+                         <div ><Link to='/' className={`nav-link ${props.history.location.pathname === '/' && 'active'}`}>Главная</Link></div>
+                         <div ><Link to='/' className={`nav-link ${props.history.location.pathname === '/cases' && 'active'}`}>Кейсы</Link></div>
+                         <div ><Link to='/services' className={`nav-link ${props.history.location.pathname === '/services' && 'active'}`}>Услуги</Link></div>
+                         <div ><Link to='/' className={`nav-link ${props.history.location.pathname === '/blog' && 'active'}`}>Блог</Link></div>
+                         <div ><Link to='/' className={`nav-link ${props.history.location.pathname === '/about' && 'active'}`}>О нас</Link></div>
+                         <div ><Link to='/' className="nav-link lang">RU</Link></div>
+                         <div ><Link to='/' className="nav-link lang">EN</Link></div>
                      </div>
                  </div>
                  <div className="col-md-4">
@@ -32,7 +32,7 @@ const Navbar = () => {
                        </div>
                        <div className="nav-link">
 
-                              <a className='cons rounded-pill'>Бесплатная консультация</a>
+                              <a href="#!" className='cons rounded-pill'>Бесплатная консультация</a>
                        </div>
                    </div>
                  </div>

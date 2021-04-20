@@ -1,20 +1,20 @@
-import logo from './logo.svg';
-import Navbar from "./components/Navbar";
-import Jumbotron from "./components/Home/Jumbotron";
-import Services from "./components/Home/Services";
-import Benefits from "./components/Home/Benefits";
-
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import HomePage from "./pages/HomePage";
+import ServicePage from "./pages/ServicePage";
 
 function App() {
-  return (
-    <div className="App">
+   return (
+      <>
+         <BrowserRouter>
+            <Switch>
+               <Route path="/" exact component={HomePage}/>
+               <Route path="/services" exact component={ServicePage}/>
+            </Switch>
 
-      <Navbar />
-      <Jumbotron />
-      <Services />
-      <Benefits />
-    </div>
-  );
+         </BrowserRouter>
+
+      </>
+   );
 }
 
 export default App;
