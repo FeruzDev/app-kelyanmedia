@@ -458,6 +458,8 @@ html{
     }
 
     .Posts{
+
+      margin-bottom: 100px;
       h3{
         font-size: 44px;
         line-height: 66px;
@@ -469,48 +471,56 @@ html{
         display: table;
       }
 
-      .col-4{
-        margin-bottom: 50px;
-        .card{
-          p{
-            font-size: 18px;
-            line-height: 27px;
-            span{
-              font-weight: 700;
-            }
-          }
-          .tag{
-            background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
-            border-radius: 30px;
-            padding: 6px 32px;
-            font-size: 14px;
-            line-height: 17px;
-          }
-          .overflow-hidden{
-            margin-top: 27px;
-            border-radius: 30px;
-            img{
-              height: 230px;
-              transition: all 0.6s linear;
-              object-fit: cover;
-              &:hover{
-                transform: scale(1.1);
-              }
-            }
-          }
-          h4{
-            margin: 20px 0;
-            font-size: 22px;
-            line-height: 26px;
-          }
-          .card-footer{
-            color: #999999;
-            font-size: 18px;
-            line-height: 21px;
-          }
+      .posts-content{
+        background-image: url("../components/img/blog-bg.png");
+        background-size: 100% 100%;
+        padding: 50px 20px;
+       .row{
+         .col-4{
+           margin-bottom: 50px;
+           .card{
+             p{
+               font-size: 18px;
+               line-height: 27px;
+               span{
+                 font-weight: 700;
+               }
+             }
+             .tag{
+               background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+               border-radius: 30px;
+               padding: 6px 32px;
+               font-size: 14px;
+               line-height: 17px;
+             }
+             .overflow-hidden{
+               margin-top: 27px;
+               border-radius: 30px;
+               img{
+                 height: 230px;
+                 transition: all 0.6s linear;
+                 object-fit: cover;
+                 &:hover{
+                   transform: scale(1.1);
+                 }
+               }
+             }
+             h4{
+               margin: 20px 0;
+               font-size: 22px;
+               line-height: 26px;
+             }
+             .card-footer{
+               color: #999999;
+               font-size: 18px;
+               line-height: 21px;
+             }
 
-        }
+           }
+         }
+       }
       }
+
 
     }
 
@@ -1250,7 +1260,7 @@ p{
     }
 
   }
-  .copItem:nth-child(1), .copItem:nth-child(3), .copItem:nth-child(5){
+  .copItem:nth-child(1), .copItem:nth-child(3), .copItem:nth-child(5) , .copItem:nth-child(7){
     margin-left: 40%;
   }
 }
@@ -1304,4 +1314,166 @@ p{
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 111;
+}
+
+.ConsultationApplication{
+  .row{
+    padding: 100px;
+
+    .col-md-6{
+
+
+      h1{
+        color: #fff;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 72px;
+
+        span{
+          background: linear-gradient(90deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: table;
+        }
+      }
+
+      form{
+        background: linear-gradient(90deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        padding: 90px 100px;
+        input{
+          height: 60px;
+          margin-top: 10px;
+
+        }
+        .inputNumber{
+          position: relative;
+
+          input{
+            padding-left: 70px;
+          }
+
+          img{
+            position: absolute;
+            left: 20px;
+            top: 10px;
+          }
+        }
+
+        button{
+          display: block;
+
+          background: #120212;
+          height: 60px;
+          width: 100%;
+          margin-top: 10px;
+          border-radius: 10px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+
+.BlogItem{
+
+  .container{
+
+    .row {
+      background-image: url("../components/img/blog-bg.png");
+      background-size: 100% 100%;
+
+      padding: 70px 100px;
+      .col-6{
+        padding: 20px;
+        .tag{
+          background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+          border-radius: 30px;
+          padding: 6px 32px;
+          font-size: 14px;
+          line-height: 17px;
+        }
+
+        h1{
+          color: #fff;
+          font-size: 24px;
+        }
+
+        img{
+          margin-top: 30px;
+          width: 100%;
+        }
+
+
+        p{
+text-align: justify;
+          margin-top: 30px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+.LogoCases{
+  .container{
+    h2 {
+      color: #362836;
+      font-weight: 700;
+      font-size: 40px;
+      padding-top: 120px;
+    }
+    h3 {
+      font-size: 44px;
+
+      font-weight: 600;
+
+
+
+
+      background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: #FFD66B;
+
+      display: table;
+    }
+
+    .row{
+      .col-md-6{
+        padding: 60px;
+        display: flex;
+
+        justify-content: center;
+        flex-direction: column;
+
+        h1{
+          color: #fff;
+
+          font-size: 36px;
+        }
+
+
+        p{
+          margin-top: 40px;
+          color: #fff;
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+
+
+}
+
+.w2Bottom{
+  width: 100%;
 }
