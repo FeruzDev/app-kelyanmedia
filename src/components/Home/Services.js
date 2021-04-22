@@ -1,15 +1,30 @@
 import React, {Component} from 'react';
+import AOS from "aos";
 
 class Services extends Component {
+
+
+
+    componentDidMount() {
+        AOS.init();
+
+    }
+
     render() {
         return (
             <div className="Services">
 
                 <div className="container">
-                    <h3>УСЛУГИ</h3>
+                    <h3
+                        data-aos="fade-right"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">УСЛУГИ</h3>
 
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-4"
+                             data-aos="flip-left"
+                             data-aos-easing="ease-out-cubic"
+                             data-aos-duration="2000">
                             <div className="serCard">
 
 
@@ -33,7 +48,11 @@ class Services extends Component {
 
 
 
-                        <div className="col-md-4">
+                        <div className="col-md-4"
+                             data-aos="flip-up"
+                             data-aos-easing="ease-out-cubic"
+                             data-aos-duration="2000"
+                        >
                             <div className="serCard">
 
 
@@ -56,7 +75,10 @@ class Services extends Component {
                         </div>
 
 
-                        <div className="col-md-4">
+                        <div className="col-md-4"
+                             data-aos="flip-right"
+                             data-aos-easing="ease-out-cubic"
+                             data-aos-duration="2000">
                             <div className="serCard">
 
 

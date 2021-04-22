@@ -1,15 +1,27 @@
 import React, {Component} from 'react';
+import AOS from "aos";
 
 class Offers extends Component {
+
+    componentDidMount() {
+        AOS.init();
+
+    }
     render() {
+
         return (
             <div className="Offers">
                 <div className="container">
-                    <h3>ЧТО МЫ ПРЕДЛАГАЕМ?</h3>
+                    <h3  data-aos="fade-right"
+                         data-aos-easing="linear"
+                         data-aos-duration="1200">ЧТО МЫ ПРЕДЛАГАЕМ?</h3>
 
                     <div className="row">
                         <div className="col-md-4">
-                            <div className="benCard">
+                            <div className="benCard"
+                                 data-aos="fade-up"
+                                 data-aos-easing="linear"
+                                 data-aos-duration="1200">
 
                                 <div>
                                     <span>1</span>
@@ -25,7 +37,11 @@ class Offers extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="benCard">
+                            <div className="benCard"
+                                 data-aos="fade-up"
+                                 data-aos-easing="linear"
+                                 data-aos-duration="1200"
+                                 data-aos-delay="300">
 
                                 <div>
                                     <span>2</span>
@@ -41,7 +57,11 @@ class Offers extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="benCard">
+                            <div className="benCard"
+                                 data-aos="fade-up"
+                                 data-aos-easing="linear"
+                                 data-aos-duration="1200"
+                                 data-aos-delay="600">
 
                                 <div>
                                     <span>3</span>
@@ -57,7 +77,10 @@ class Offers extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="benCard">
+                            <div className="benCard"
+                                 data-aos="fade-up"
+                                 data-aos-easing="linear"
+                                 data-aos-duration="1200">
 
                                 <div>
                                     <span>4</span>
@@ -74,7 +97,11 @@ class Offers extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="benCard">
+                            <div className="benCard"
+                                 data-aos="fade-up"
+                                 data-aos-easing="linear"
+                                 data-aos-duration="1200"
+                                 data-aos-delay="300">
 
                                 <div>
                                     <span>5</span>
@@ -90,7 +117,11 @@ class Offers extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="benCard">
+                            <div className="benCard"
+                                 data-aos="fade-up"
+                                 data-aos-easing="linear"
+                                 data-aos-duration="1200"
+                                 data-aos-delay="600">
 
                                 <div>
                                     <span>6</span>

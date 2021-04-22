@@ -103,7 +103,7 @@ html{
 
       .container {
         position: relative;
-        //height: 100vh;
+        z-index: 111;
         .col-md-4 {
           h1 {
             font-size: 48px;
@@ -118,6 +118,8 @@ html{
             color: #FFD66B;
 
             display: table;
+            height: 300px;
+
           }
         }
 
@@ -135,26 +137,27 @@ html{
           position: absolute;
           top: 10%;
           right: 5%;
-          animation-name: raceta;
-          animation-duration: 2s;
-          animation-iteration-count: infinite;
+          z-index: 111;
+          //animation-name: raceta;
+          //animation-duration: 2s;
+          //animation-iteration-count: infinite;
           //animation-timing-function: linear;
         }
-
-        @keyframes raceta {
-          0% {
-            transform: translateX(0px) translateY(0px);
-
-          }
-          50% {
-            transform: translateX(20px) translateY(20px);
-          }
-
-
-          100% {
-            transform: translateX(0px) translateY(0px);
-          }
-        }
+        //
+        //@keyframes raceta {
+        //  0% {
+        //    transform: translateX(0px) translateY(0px);
+        //
+        //  }
+        //  50% {
+        //    transform: translateX(20px) translateY(20px);
+        //  }
+        //
+        //
+        //  100% {
+        //    transform: translateX(0px) translateY(0px);
+        //  }
+        //}
       }
 
       .subHome {
@@ -206,6 +209,7 @@ html{
 
     .Services {
       background-color: #120212;
+      overflow: hidden !important;
 
 
       h3 {
@@ -276,6 +280,9 @@ html{
               border: 2px solid #fff;
               color: #fff;
               padding: 10px 20px;
+            }
+            a:hover{
+              text-decoration: none;
             }
           }
         }
@@ -478,7 +485,13 @@ html{
        .row{
          .col-4{
            margin-bottom: 50px;
+
            .card{
+             border: none;
+             .card-header{
+               border: none;
+
+             }
              p{
                font-size: 18px;
                line-height: 27px;
@@ -514,6 +527,8 @@ html{
                color: #999999;
                font-size: 18px;
                line-height: 21px;
+               border: none;
+
              }
 
            }
@@ -544,6 +559,7 @@ html{
 .Cases{
   margin: 0;
   padding: 0;
+  overflow: hidden !important;
 
   h2 {
     color: #362836;
@@ -1476,4 +1492,25 @@ text-align: justify;
 
 .w2Bottom{
   width: 100%;
+}
+
+
+
+
+.canvasBg{
+  position: absolute;
+  z-index: 11;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.4 !important;
+
+  #tsparticles {
+
+
+    height: 100%;
+    .tsparticles-canvas-el {
+      height: 100%;
+    }
+
+  }
 }

@@ -1,16 +1,34 @@
 import React, {Component} from 'react';
+import AOS from "aos";
 
 class Benefits extends Component {
+
+    componentDidMount() {
+        AOS.init();
+
+    }
+
     render() {
         return (
             <div className="Benefits">
                 <div className="container">
-                    <h2>Что вы получите от работы с нами?</h2>
-                    <h3>Ваши выгоды</h3>
+                    <h2 data-aos="fade-right"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">Что вы получите от работы с нами?</h2>
+                    <h3 data-aos="fade-right"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500"
+                    data-aos-delay="300"
+
+
+                    >Ваши выгоды</h3>
 
                     <div className="row">
                         <div className="col-md-3">
-                            <div className="benCard">
+                            <div className="benCard"
+                                 data-aos="fade-up"
+                                 data-aos-easing="linear"
+                                 data-aos-duration="1500">
 
                                 <div>
                                     <span>1</span>
@@ -31,7 +49,11 @@ class Benefits extends Component {
                             </div>
                         </div>
                         <div className="col-md-3">
-                            <div className="benCard">
+                            <div className="benCard"
+                                 data-aos="fade-up"
+                                 data-aos-easing="linear"
+                                 data-aos-duration="1500"
+                                 data-aos-delay="300">
 
                                 <div>
                                     <span>2</span>
@@ -48,7 +70,11 @@ class Benefits extends Component {
                             </div>
                         </div>
                         <div className="col-md-3">
-                            <div className="benCard">
+                            <div className="benCard"
+                                 data-aos="fade-up"
+                                 data-aos-easing="linear"
+                                 data-aos-duration="1500"
+                                 data-aos-delay="600">
 
                                 <div>
                                     <span>3</span>
@@ -64,7 +90,11 @@ class Benefits extends Component {
                             </div>
                         </div>
                         <div className="col-md-3">
-                            <div className="benCard">
+                            <div className="benCard"
+                                 data-aos="fade-up"
+                                 data-aos-easing="linear"
+                                 data-aos-duration="1500"
+                                 data-aos-delay="900">
 
                                 <div>
                                     <span>4</span>

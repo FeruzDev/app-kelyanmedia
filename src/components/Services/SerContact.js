@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 
+
 class SerContact extends Component {
+
+
     render() {
         return (
             <div className="SerContact">
@@ -9,9 +12,16 @@ class SerContact extends Component {
                     <div className="row">
                         <div className="col-md-7" />
                         <div className="col-md-4 mb-5  ">
-                            <h1>Хотите поднять продажи?</h1>
-                            <p>Давайте знакомиться!</p>
-                            <p>Заполните форму ниже и мы с вами свяжемся.</p>
+                            <h1
+
+                                >Хотите поднять продажи?</h1>
+                            <p
+
+                                >Давайте знакомиться!</p>
+                            <p
+
+
+                                >Заполните форму ниже и мы с вами свяжемся.</p>
 
 
                             <form>
