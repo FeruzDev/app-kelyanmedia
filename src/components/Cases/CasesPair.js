@@ -12,90 +12,55 @@ class CasesPair extends Component {
             <div className="Cases">
                 <div className="row">
                     <div className="col-md-6">
-                        <img data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200"
-                             src="/img/rec72.svg" alt=""/>
+                        <img src="/img/rec72.png" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img data-aos="fade-left"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200" src="/img/rec73.svg" alt=""/>
+                        <img   src="/img/rec73.png" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200"
-                             src="/img/rec74.svg" alt=""/>
+                        <img  src="/img/rec74.png" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img  data-aos="fade-left"
-                              data-aos-easing="linear"
-                              data-aos-duration="1200" src="/img/rec75.svg" alt=""/>
+                        <img   src="/img/rec75.png" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200"
-                             src="/img/rec77.svg" alt=""/>
+                        <img   src="/img/rec77.png" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img  data-aos="fade-left"
-                              data-aos-easing="linear"
-                              data-aos-duration="1200" src="/img/rec76.svg" alt=""/>
+                        <img   src="/img/rec76.png" alt=""/>
                     </div>
 
 
                     <div className="col-md-6">
-                        <img data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200"
-                             src="/img/rec1(9).svg" alt=""/>
+                        <img  src="/img/rec1(9).png" alt=""/>
                     </div>
 
                     <div className="col-md-6">
-                        <img  data-aos="fade-left"
-                              data-aos-easing="linear"
-                              data-aos-duration="1200" src="/img/rec1(8).svg" alt=""/>
+                        <img   src="/img/rec1(8).png" alt=""/>
                     </div>
 
                     <div className="col-md-6">
-                        <img data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200"
-                             src="/img/rec1(7).svg" alt=""/>
+                        <img   src="/img/rec1(7).png" alt=""/>
                     </div>
 
                     <div className="col-md-6">
-                        <img  data-aos="fade-left"
-                              data-aos-easing="linear"
-                              data-aos-duration="1200" src="/img/rec1(6).svg" alt=""/>
+                        <img  src="/img/rec1(6).png" alt=""/>
                     </div>
 
                     <div className="col-md-6">
-                        <img data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200"
-                             src="/img/rec1(5).svg" alt=""/>
+                        <img  src="/img/rec1(5).png" alt=""/>
                     </div>
 
                     <div className="col-md-6">
-                        <img  data-aos="fade-left"
-                              data-aos-easing="linear"
-                              data-aos-duration="1200" src="/img/rec1(4).svg" alt=""/>
+                        <img   src="/img/rec1(4).png" alt=""/>
                     </div>
 
                     <div className="col-md-6">
-                        <img data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200"
-                             src="/img/rec1(3).svg" alt=""/>
+                        <img  src="/img/rec1(3).png" alt=""/>
                     </div>
 
                     <div className="col-md-6">
-                        <img  data-aos="fade-left"
-                              data-aos-easing="linear"
-                              data-aos-duration="1200" src="/img/rec1(2).svg" alt=""/>
+                        <img    src="/img/rec1(2).png" alt=""/>
                     </div>
                 </div>
             </div>

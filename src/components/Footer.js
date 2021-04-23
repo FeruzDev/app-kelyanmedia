@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Typical from "react-typical"
 import AOS from "aos";
+import FooterApp from "./FooterApp";
 
 
 class Footer extends Component {
@@ -13,12 +14,14 @@ class Footer extends Component {
         return (
             <div className="Footer">
 
+              <div>
+                  <FooterApp/>
                   <div className="container">
-                    <div className="line" />
-                    <h2 data-aos="zoom-in"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500"
-                    >Давайте работать вместе!</h2>
+                      <div className="line" />
+                      <h2 data-aos="zoom-in"
+                          data-aos-easing="linear"
+                          data-aos-duration="1500"
+                      >Давайте работать вместе!</h2>
 
                       <Typical
                           steps={['СВЯЖИТЕСЬ С НАМИ', 1000, 'НУЖЕН УСПЕШНЫЙ ПРОЕКТ?', 2500]}
@@ -58,7 +61,7 @@ class Footer extends Component {
                       <h2 data-aos="fade-left"
                           data-aos-easing="linear"
                           data-aos-duration="1500"
-                          >Телефон для связи <img src="/img/icon/phone.svg" className="ml-3" alt=""/> <span>+99 8 33 339 3334</span></h2>
+                      >Телефон для связи <img src="/img/icon/phone.svg" className="ml-3" alt=""/> <span>+998 33 339 3334</span></h2>
                       <p data-aos="fade-up"
                          data-aos-easing="linear"
                          data-aos-duration="1500"
@@ -73,6 +76,7 @@ class Footer extends Component {
                           data-aos-delay="100">© 2021 KELYAN MEDIA</h6>
                   </div>
 
+              </div>
             </div>
         );
     }

@@ -19,41 +19,22 @@ class Cases extends Component {
                 
                 <div className="row">
                     <div className="col-md-6">
-                        <img data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200"
-
-                             src="/img/rec72.svg" alt=""/>
+                        <img  src="/img/rec72.png" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img data-aos="fade-left"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200"src="/img/rec73.svg" alt=""/>
+                        <img src="/img/rec73.png" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="1200"
-                             data-aos-delay="300"
-                             src="/img/rec74.svg" alt=""/>
+                        <img src="/img/rec74.png" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img data-aos="fade-left"
-                             data-aos-easing="linear"
-                             data-aos-delay="300"
-                             data-aos-duration="1200" src="/img/rec75.svg" alt=""/>
+                        <img src="/img/rec75.png" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-delay="600"
-                             data-aos-duration="1200" src="/img/rec76.svg" alt=""/>
+                        <img src="/img/rec77.png" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img data-aos="fade-left"
-                             data-aos-easing="linear"
-                             data-aos-delay="600"
-                             data-aos-duration="1200" src="/img/rec77.svg" alt=""/>
+                        <img src="/img/rec76.png" alt=""/>
                     </div>
                 </div>
             </div>

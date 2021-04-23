@@ -6,19 +6,22 @@ import Benefits from "../components/Home/Benefits";
 import Cases from "../components/Home/Cases";
 import Clients from "../components/Home/Clients";
 import Footer from "../components/Footer";
+import SubHome from "../components/Home/SubHome";
 
 const HomePage = (props) => {
    console.log(props)
    return (
-      <>
+      <div className="overflow-hidden">
          <Navbar history={props.history} />
          <Jumbotron />
-         <Services />
-         <Benefits />
-         <Cases />
-         <Clients />
+          <SubHome/>
+          <Services />
+          <Benefits />
+          <Cases />
+          <Clients />
+
          <Footer />
-      </>
+      </div>
    );
 };
 

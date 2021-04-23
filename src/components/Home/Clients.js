@@ -6,13 +6,50 @@ import AOS from "aos";
 
 class Clients extends Component {
 
+
+
+
+
+
+    state = {
+        minutes: 25,
+        seconds: 0,
+    }
+
     componentDidMount() {
+        this.myInterval = setInterval(() => {
+            const { seconds, minutes } = this.state
+
+            if (seconds > 0) {
+                this.setState(({ seconds }) => ({
+                    seconds: seconds - 1
+                }))
+            }
+            if (seconds === 0) {
+                if (minutes === 0) {
+                    clearInterval(this.myInterval)
+                } else {
+                    this.setState(({ minutes }) => ({
+                        minutes: minutes - 1,
+                        seconds: 59
+                    }))
+                }
+            }
+        }, 1000);
+
         AOS.init();
 
     }
 
+    componentWillUnmount() {
+        clearInterval(this.myInterval)
+    }
+
+
+
 
     render() {
+        const { minutes, seconds } = this.state
         const settings = {
             dots: false,
             infinite: true,
@@ -88,33 +125,24 @@ class Clients extends Component {
                              data-aos-duration="1200"
 
                         >
-                            <div className="row">
+
+                            <div className="row justify-content-center">
                                 <div className="hour">
                                     <div />
                                     <h1>
-                                        0
-
+                                        {minutes}
                                     </h1>
                                 </div>
 
-                                <div className="hour ml-1">
-                                    <div />
-                                    <h1>
-                                        0
-                                    </h1>
-                                </div>
 
-                                <div className="hour ml-3">
-                                    <div />
-                                    <h1>
-                                        0
-                                    </h1>
-                                </div>
+                                <h6>
+                                    :
+                                </h6>
 
-                                <div className="hour ml-1">
+                                <div className="hour">
                                     <div />
                                     <h1>
-                                        0
+                                        {seconds < 10 ? `0${seconds}` : seconds}
                                     </h1>
                                 </div>
                             </div>

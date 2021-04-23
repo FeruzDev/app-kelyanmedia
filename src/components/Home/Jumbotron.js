@@ -18,12 +18,12 @@ componentDidMount() {
              <div>
 
                  <App/>
-                 <div className="container  vh-100">
+                 <div className="container ">
                      <div className="col-md-4">
 
                          {/* eslint-disable-next-line react/jsx-no-undef */}
                          <Typical
-                             steps={['KELYANMEDIA', 1000, 'Маркетинговая Диджитал Компания', 500]}
+                             steps={['KELYANMEDIA', 1000, 'Маркетинговая Digital Компания', 500]}
                              loop={Infinity}
                              wrapper="h1"
                          />
@@ -43,68 +43,7 @@ componentDidMount() {
                  </div>
              </div>
 
-                <div  className="container subHome">
-                    <h2 data-aos="fade-right"
-                        data-aos-easing="linear"
-                        data-aos-duration="1000">
-                        Почему  стоит обратиться к нам?
-                    </h2>
-                    <h3 data-aos="fade-right"
-                        data-aos-easing="linear"
-                        data-aos-duration="1000"
-                        data-aos-delay="1000"
-                    >
-                        Ключевые аспекты продвижения
-                    </h3>
 
-                    <ul>
-                        <li data-aos="fade-up"
-                            data-aos-easing="linear"
-                            data-aos-duration="1000"
-
-                        >
-                            <div></div>
-                            Выбор социальной сети с наибольшим процентом целевой аудитории бренда
-                        </li>
-                        <li data-aos="fade-up"
-                            data-aos-easing="linear"
-                            data-aos-duration="1000"
-                            data-aos-delay="300"
-                        >
-                            <div></div>
-                            Анализ деятельности конкурентов и разработка контент-плана
-                        </li >
-                        <li data-aos="fade-up"
-                            data-aos-easing="linear"
-                            data-aos-duration="1000"
-                            data-aos-delay="600"
-                        >
-                            <div></div>
-                            Анализ реакции аудитории за счет лайков, комментариев и просмотров
-                        </li>
-                        <li data-aos="fade-up"
-                            data-aos-easing="linear"
-                            data-aos-duration="1000"
-                            data-aos-delay="900"
-                        >
-                            <div></div>
-                            Разработка интерактивов: конкурсов, акций и программы лояльности
-                        </li>
-                        <li data-aos="fade-up"
-                            data-aos-easing="linear"
-                            data-aos-duration="1000"
-                            data-aos-delay="1200"
-                        >
-                            <div></div>
-                            Составление ежемесячного отчета, анализ ошибок и их исправление
-                        </li>
-                    </ul>
-                    <h2  data-aos="fade-right"
-                         data-aos-easing="linear"
-                         data-aos-duration="1500">
-                        Чем мы вам поможем?
-                    </h2>
-                </div>
 
             </div>
 

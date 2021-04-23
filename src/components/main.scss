@@ -1,4 +1,7 @@
 
+
+
+
 html{
   font-size: 16px;
   scroll-behavior: smooth;
@@ -98,9 +101,8 @@ html{
 
 
     .Jumbotron {
-      background-color: #120212;
-      overflow: hidden;
-
+      position: relative;
+      padding-bottom: 200px;
       .container {
         position: relative;
         z-index: 111;
@@ -160,53 +162,53 @@ html{
         //}
       }
 
-      .subHome {
-        h2 {
-          color: #362836;
-          font-weight: 700;
-          font-size: 40px;
-          margin-top: 150px;
-        }
 
-        h3 {
-          font-size: 44px;
+    }
 
-          font-weight: 600;
+    .subHome {
+      h2 {
+        color: #362836;
+        font-weight: 700;
+        font-size: 40px;
+        margin-top: 50px;
+      }
 
-          background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+      h3 {
+        font-size: 44px;
 
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          color: #FFD66B;
+        font-weight: 600;
 
-          display: table;
-        }
+        background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
 
-        ul {
-          margin-top: 30px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #FFD66B;
 
-          li {
-            list-style: none;
-            display: flex;
-            margin-top: 20px;
-            font-size: 24px;
-            color: #fff;
-            align-items: center;
+        display: table;
+      }
 
-            div {
-              width: 20px;
-              margin-top: 5px;
-              height: 20px;
-              background: linear-gradient(100.01deg, #FBB55E 7.74%, #E2021A 100%);
-              border-radius: 50%;
-              margin-right: 20px;
-            }
+      ul {
+        margin-top: 30px;
+
+        li {
+          list-style: none;
+          display: flex;
+          margin-top: 20px;
+          font-size: 24px;
+          color: #fff;
+          align-items: center;
+
+          div {
+            width: 20px;
+            margin-top: 5px;
+            height: 20px;
+            background: linear-gradient(100.01deg, #FBB55E 7.74%, #E2021A 100%);
+            border-radius: 50%;
+            margin-right: 20px;
           }
         }
       }
     }
-
-
     .Services {
       background-color: #120212;
       overflow: hidden !important;
@@ -293,6 +295,7 @@ html{
     .Benefits {
       background-color: #120212;
 
+      overflow: hidden;
       h2 {
         color: #362836;
         font-weight: 700;
@@ -597,6 +600,7 @@ html{
 }
 
 .Clients{
+  overflow: hidden;
   h2 {
     color: #362836;
     font-weight: 700;
@@ -620,10 +624,15 @@ html{
   }
 
   .row{
+    h6{
+      font-size: 100px;
+      color: #fff;
+      margin: 0 20px;
+    }
     .hour{
       background: linear-gradient(359.49deg, #DFE9F3 0.39%, #FFFFFF 100.88%);
       border-radius: 20px;
-      width: 100px;
+      width: 140px;
       height: 140px;
       position: relative;
       div{
@@ -642,6 +651,7 @@ html{
         position: relative;
         z-index: 111;
       }
+
     }
   }
   .carouselItem{
@@ -691,8 +701,11 @@ p{
 
 
 .Footer{
-
+  overflow: hidden;
   margin-top: 100px;
+  position: relative;
+  z-index: 111;
+  .container{
   .line{
     height: 1px;
     background-color: #fff;
@@ -703,9 +716,12 @@ p{
   h2{
     text-align: center;
     color: #fff;
-    font-size: 36px;
-    margin-top: 50px;
+    font-size: 26px;
+    margin-top: 30px;
     font-weight: normal;
+    img{
+      width: 25px;
+    }
   }
   h3 {
     font-size: 44px;
@@ -720,16 +736,21 @@ p{
 
     display: table;
 
-    margin: 50px auto;
+    margin: 30px auto;
   }
   .row{
     display: flex;
     justify-content: space-around;
     padding: 0 100px;
+    a{
+      img{
+        width: 70px;
+      }
+    }
   }
 
   p{
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 30px;
     margin-bottom: 50px;
     color: #fff;
@@ -738,14 +759,15 @@ p{
 
 
   h6{
-    font-size: 18px;
-    margin-top: 30px;
+    font-size: 14px;
+    margin-top: 20px;
     text-align: center;
     color: #fff;
     font-weight: normal;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
+}
 
 
 
@@ -1501,7 +1523,7 @@ text-align: justify;
   position: absolute;
   z-index: 11;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   opacity: 0.4 !important;
 
   #tsparticles {
@@ -1514,3 +1536,310 @@ text-align: justify;
 
   }
 }
+
+
+
+
+@media  (max-width: 765px) {
+
+ html{
+   body{
+     .Jumbotron {
+       padding-bottom: 20px !important;
+       .container {
+         padding: 0 15px;
+         .col-md-4 {
+           h1 {
+             font-size: 24px;
+             padding-top: 48px;
+             padding-left:  0px   ;
+             padding-right: 150px   ;
+             height: 140px   ;
+           }
+         }
+         .col-md-8 {
+           p {
+
+             font-size: 16px;
+             padding-left: 0px   ;
+
+             padding-right: 80px ;
+
+           }
+         }
+
+         img {
+           width: 60%;
+
+           top: 20%;
+           right:  15%;
+
+         }
+
+       }
+
+
+     }
+
+     .subHome {
+       h2 {
+         font-size: 20px;
+         margin-top:  0px;
+       }
+
+       h3 {
+         font-size: 18px;
+
+       }
+
+       ul {
+         margin-top: 20px;
+         pading-left: 15px;
+
+         li {
+           margin-top: 20px;
+           font-size: 14px;
+           color: #fff;
+           align-items: center;
+
+           div {
+             margin-right:  10px;
+             width: 18px;
+             height: 18px;
+           }
+         }
+       }
+     }
+
+     .Services {
+       h3 {
+         font-size: 20px;
+
+         margin-bottom: 20px;
+
+       }
+
+       .col-md-4 {
+         box-sizing: border-box;
+
+         padding: 24px 80px;
+         .serCard {
+           padding-bottom: 50px;
+           color: #fff;
+           background-image: url("../components/img/bg.png");
+
+           background-size: 100% 100%;
+
+
+           img {
+             margin-top: 11px;
+             margin-left: 7%;
+             width: 86%;
+           }
+
+           h4 {
+             text-align: center;
+             margin-top:14px;
+           }
+
+           ul {
+             margin-top: 6px;
+
+             padding-left: 12px;
+             margin-bottom: 30px;
+
+             li {
+               margin-top: 10px;
+               margin-left: 10px;
+               font-size: 12px  ;
+             }
+           }
+
+           div {
+             width: 100%;
+             text-align: center;
+
+             a {
+
+               border: 2px solid #fff;
+               color: #fff;
+               padding: 10px 20px;
+             }
+             a:hover{
+               text-decoration: none;
+             }
+           }
+         }
+       }
+
+     }
+   }
+ }
+
+
+
+  .Benefits {
+    background-color: #120212;
+
+    overflow: hidden;
+    h2 {
+      color: #362836;
+      font-weight: 700;
+      font-size: 40px;
+      padding-top: 100px;
+    }
+
+    h3 {
+      font-size: 44px;
+
+      margin-bottom: 50px;
+      font-weight: 600;
+
+      background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: #FFD66B;
+
+      display: table;
+    }
+
+
+    .row{
+      .col-md-3{
+        animation-name: benAnim;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+
+        padding: 8px;
+        .benCard{
+          position: relative;
+          //background: linear-gradient(135.88deg, rgba(58, 129, 191, 0.08) 0%, rgba(65, 48, 90, 0.03) 100.8%);
+          //backdrop-filter: blur(4px);
+
+          background-image: url("../components/img/bg2.png");
+          background-size: 100% 100%;
+          padding: 20px;
+
+          border-radius: 30px;
+          height: 320px;
+
+
+          div {
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 111;
+
+            span {
+              font-size: 48px;
+
+
+              background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              color: #FFD66B;
+
+              font-weight: 700;
+              display: table;
+            }
+
+            h4 {
+              font-size: 14px;
+              color: #fff;
+              margin-top: 10px;
+            }
+          }
+
+
+          p {
+            color: #fff;
+            font-size: 14px;
+            position: relative;
+            z-index: 111;
+            font-weight: 400;
+          }
+
+          ul {
+            padding-left: 20px;
+
+            position: relative;
+            z-index: 111;
+
+            li {
+              color: #fff;
+              font-weight: 400;
+              font-size: 14px;
+
+              margin-top: 5px;
+            }
+          }
+
+          h1 {
+            font-size: 180px;
+
+
+            z-index: 1;
+            position: absolute;
+
+
+            left: 30%;
+
+            top: 20%;
+
+            background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: #FFD66B;
+
+            opacity: 0.5;
+            font-weight: 700;
+            display: table;
+          }
+        }
+      }
+
+      .col-md-3:nth-child(2), .col-md-3:nth-child(3), .col-md-3:nth-child(4) {
+        .benCard {
+          p {
+            margin-top: 50px;
+            line-height: 20px;
+          }
+        }
+      }
+
+      .col-md-3:nth-child(2){
+        margin-top: 50px;
+        animation-delay: 0.5s;
+      }
+
+      .col-md-3:nth-child(3){
+        margin-top: 100px;
+        animation-delay: 1s;
+
+      }
+      .col-md-3:nth-child(4){
+        margin-top: 150px;
+        animation-delay: 1.5s;
+
+      }
+
+
+      @keyframes benAnim {
+        25%{
+
+          transform: translateY(20px);
+
+        }
+
+      }
+
+    }
+  }
+
+}
+
+

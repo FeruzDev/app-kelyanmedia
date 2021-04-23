@@ -35,7 +35,7 @@ class Company extends Component {
                         <img data-aos="fade-left"
                              data-aos-easing="linear"
                              data-aos-duration="1200"
-                             src="/img/reb1.svg" alt=""/>
+                             src="/img/reb1.png" alt=""/>
                     </div>
 
 
@@ -43,7 +43,7 @@ class Company extends Component {
 
 
                     <div className="col-md-6">
-                        <img src="/img/reb2.svg"
+                        <img src="/img/reb2.png"
                              data-aos="fade-right"
                              data-aos-easing="linear"
                              data-aos-duration="1500" alt=""/>
@@ -77,7 +77,7 @@ class Company extends Component {
                             методологий дающей нужные результаты</p>
                     </div>
                     <div className="col-md-6">
-                        <img src="/img/reb3.svg"
+                        <img src="/img/reb3.png"
                              data-aos="fade-left"
                              data-aos-easing="linear"
                              data-aos-duration="1500"
@@ -118,7 +118,7 @@ class Company extends Component {
                                      data-aos-duration="1500"
 
                                      className="w-100"
-                                     src="/img/ourTeam1.svg" alt=""/>
+                                     src="/img/ourTeam1.png" alt=""/>
                                 <h1 data-aos="zoom-out"
                                     data-aos-easing="linear"
                                     data-aos-duration="1500"
@@ -133,7 +133,7 @@ class Company extends Component {
                                     data-aos-easing="linear"
                                     data-aos-duration="1500"
                                     className="w-100"
-                                    src="/img/ourTeam2.svg" alt=""/>
+                                    src="/img/ourTeam2.png" alt=""/>
                                 <h1  data-aos="zoom-out"
                                      data-aos-easing="linear"
                                      data-aos-duration="1500">Агаси Аракелян </h1>
@@ -147,7 +147,7 @@ class Company extends Component {
                                     data-aos-duration="1500"
                                     data-aos-delay="200"
                                     className="w-100"
-                                    src="/img/ourTeam3.svg"
+                                    src="/img/ourTeam3.png"
                                     alt=""/>
                                 <h1  data-aos="zoom-out"
                                      data-aos-easing="linear"
@@ -163,7 +163,7 @@ class Company extends Component {
                                     data-aos-duration="1500"
                                     data-aos-delay="200"
                                     className="w-100"
-                                    src="/img/ourTeam4.svg"
+                                    src="/img/ourTeam4.png"
                                     alt=""/>
                                 <h1  data-aos="zoom-out"
                                      data-aos-easing="linear"
@@ -179,7 +179,7 @@ class Company extends Component {
                                      data-aos-delay="400"
                                      className="w-100"
 
-                                     src="/img/ourTeam5.svg"
+                                     src="/img/ourTeam5.png"
                                      alt=""/>
                                 <h1  data-aos="zoom-out"
                                      data-aos-easing="linear"
@@ -194,7 +194,7 @@ class Company extends Component {
                                      data-aos-duration="1500"
                                      data-aos-delay="400"
                                      className="w-100"
-                                     src="/img/ourTeam6.svg"
+                                     src="/img/ourTeam6.png"
                                      alt=""/>
                                 <h1  data-aos="zoom-out"
                                      data-aos-easing="linear"
