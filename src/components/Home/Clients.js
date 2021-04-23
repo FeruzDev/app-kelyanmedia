@@ -62,7 +62,7 @@ class Clients extends Component {
         };
 
         return (
-            <div className="Clients">
+            <div className="Clients pb-5">
                 <div className="container">
                     <h2 data-aos="fade-right"
                         data-aos-easing="linear"
@@ -97,7 +97,10 @@ class Clients extends Component {
 
                     <h3 data-aos="fade-right"
                         data-aos-easing="linear"
-                        data-aos-duration="1500">
+                        data-aos-duration="1500"
+
+                        className="  mr-auto ml-auto "
+                    >
                         Вы дочитали наше предложение?
                     </h3>
                     <p data-aos="fade-up"
@@ -126,7 +129,7 @@ class Clients extends Component {
 
                         >
 
-                            <div className="row justify-content-center">
+                            <div className="row justify-content-center mb-5">
                                 <div className="hour">
                                     <div />
                                     <h1>
@@ -147,13 +150,13 @@ class Clients extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6"
+                        <div className="col-md-6 text-center"
 
                              data-aos="fade-left"
                              data-aos-easing="linear"
                              data-aos-duration="1200">
 
-                            <p>
+                            <p className="mb-5">
                                 Оставьте заявку на бесплатный разбор вашего бизнеса
                             </p>
                             <Link>

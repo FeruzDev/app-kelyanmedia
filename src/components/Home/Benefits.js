@@ -31,7 +31,9 @@ class Benefits extends Component {
                                  data-aos-duration="1500">
 
                                 <div>
-                                    <span>1</span>
+                                    <span className="numberBack">
+                                        <span>1</span>
+                                    </span>
                                     <h4>Увеличиваем <br/>
                                         продажи</h4>
                                 </div>
@@ -56,7 +58,9 @@ class Benefits extends Component {
                                  data-aos-delay="300">
 
                                 <div>
-                                    <span>2</span>
+                                   <span className="numberBack">
+                                        <span>2</span>
+                                    </span>
                                     <h4>Сокращаем расходы на <br/>
                                         рекламу</h4>
                                 </div>
@@ -77,7 +81,9 @@ class Benefits extends Component {
                                  data-aos-delay="600">
 
                                 <div>
-                                    <span>3</span>
+                                   <span className="numberBack">
+                                        <span>3</span>
+                                    </span>
                                     <h4>Экономим время</h4>
                                 </div>
                                 <p>
@@ -97,7 +103,9 @@ class Benefits extends Component {
                                  data-aos-delay="900">
 
                                 <div>
-                                    <span>4</span>
+                                   <span className="numberBack">
+                                        <span>4</span>
+                                    </span>
                                     <h4>Повышаем лояльность <br/>
                                         аудитории</h4>
                                 </div>
