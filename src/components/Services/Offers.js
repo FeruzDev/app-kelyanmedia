@@ -24,7 +24,9 @@ class Offers extends Component {
                                  data-aos-duration="1200">
 
                                 <div>
-                                    <span>1</span>
+                                   <span className="numberBack">
+                                        <span>1</span>
+                                    </span>
                                     <h4>Публикации</h4>
                                 </div>
                                 <p>
@@ -44,7 +46,9 @@ class Offers extends Component {
                                  data-aos-delay="300">
 
                                 <div>
-                                    <span>2</span>
+                                     <span className="numberBack">
+                                        <span>2</span>
+                                    </span>
                                     <h4>Таргетированная реклама</h4>
                                 </div>
                                 <p>
@@ -64,7 +68,9 @@ class Offers extends Component {
                                  data-aos-delay="600">
 
                                 <div>
-                                    <span>3</span>
+                                    <span className="numberBack">
+                                        <span>3</span>
+                                    </span>
                                     <h4>Изучение конкурентов</h4>
                                 </div>
                                 <p>
@@ -83,7 +89,9 @@ class Offers extends Component {
                                  data-aos-duration="1200">
 
                                 <div>
-                                    <span>4</span>
+                                    <span className="numberBack">
+                                        <span>4</span>
+                                    </span>
                                     <h4>Рекомендации по <br/> улучшению бизнеса <br/>
                                         аудитории</h4>
                                 </div>
@@ -104,7 +112,9 @@ class Offers extends Component {
                                  data-aos-delay="300">
 
                                 <div>
-                                    <span>5</span>
+                                     <span className="numberBack">
+                                        <span>5</span>
+                                    </span>
                                     <h4>Создание комьюнити <br/> для вашего бренда</h4>
                                 </div>
                                 <p>
@@ -124,7 +134,9 @@ class Offers extends Component {
                                  data-aos-delay="600">
 
                                 <div>
-                                    <span>6</span>
+                                     <span className="numberBack">
+                                        <span>6</span>
+                                    </span>
                                     <h4>Привлечения людей </h4>
                                 </div>
                                 <p>

@@ -10,7 +10,7 @@ const CompanyPage = (props) => {
     return (
         <>
             <Navbar history={props.history}/>
-            <CompanyHeader  image="rec78.svg" text="Компании" content="O "/>
+            <CompanyHeader   />
             <Company />
             <Footer/>
         </>

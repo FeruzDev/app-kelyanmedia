@@ -17,7 +17,7 @@ class LogoCases extends Component {
 
 
                     <div className="row mb-5">
-                        <div className="col-md-6">
+                        <div className="col-6">
 
                             <img src="/img/service/adav 3.png"
                                  data-aos="fade-right"
@@ -25,7 +25,7 @@ class LogoCases extends Component {
                                  data-aos-duration="1000"
                                  alt=""/>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-6">
                             <h1 data-aos="fade-left"
                                 data-aos-easing="linear"
                                 data-aos-duration="1000"
@@ -39,7 +39,7 @@ class LogoCases extends Component {
                         </div>
 
 
-                        <div className="col-md-6">
+                        <div className="col-6">
                             <h1 data-aos="fade-right"
                                 data-aos-easing="linear"
                                 data-aos-duration="1000"
@@ -51,7 +51,7 @@ class LogoCases extends Component {
                                data-aos-delay="300">Компания по вертикальному озеленению </p>
 
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-6">
 
                             <img data-aos="fade-left"
                                  data-aos-easing="linear"
@@ -61,7 +61,7 @@ class LogoCases extends Component {
                         </div>
 
 
-                        <div  className="col-md-6">
+                        <div  className="col-6">
 
                             <img
                                  data-aos="fade-right"
@@ -70,7 +70,7 @@ class LogoCases extends Component {
                                  src="/img/service/adav 5.png"
                                  alt=""/>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-6">
                             <h1 data-aos="fade-left"
                                 data-aos-easing="linear"
                                 data-aos-duration="1000"
@@ -85,7 +85,7 @@ class LogoCases extends Component {
                         </div>
 
 
-                        <div className="col-md-6">
+                        <div className="col-6">
                             <h1 data-aos="fade-right"
                                 data-aos-easing="linear"
                                 data-aos-duration="1000"
@@ -98,7 +98,7 @@ class LogoCases extends Component {
                                data-aos-delay="300">Эксклюзивная мебель на заказ</p>
 
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-6">
 
                             <img data-aos="fade-left"
                                  data-aos-easing="linear"
@@ -108,7 +108,7 @@ class LogoCases extends Component {
                         </div>
 
 
-                        <div  className="col-md-6">
+                        <div  className="col-6">
 
                             <img
                                   data-aos="fade-right"
@@ -117,7 +117,7 @@ class LogoCases extends Component {
 
                                   src="/img/service/adav 7.png" alt=""/>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-6">
 
                             <p data-aos="fade-left"
                                data-aos-easing="linear"
@@ -136,14 +136,14 @@ class LogoCases extends Component {
                         data-aos-easing="linear"
                         data-aos-duration="1000"
                         className="ml-auto mr-auto  "
-                        style={{"margin-top": "200px"}}>
+                        style={{"margin-top": "100px"}}>
                         Давайте вместе разработаем лого
                     </h3>
                     <p
                         data-aos="fade-up"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
-                        className="ml-auto mr-auto text-white text-center p-5 ml-5 mr-5 mb-5"
+                        className="ml-auto mr-auto text-white text-center  mt-4 ml-5 mr-5 mb-5"
                          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit consectetur sed neque id
                         habitant. Hac eu phasellus imperdiet imperdiet adipiscing sed tristique sit donec. Lorem ipsum
                         dolor sit amet, consectetur adipiscing elit. Pharetra, sit consectetur sed neque id habitant.

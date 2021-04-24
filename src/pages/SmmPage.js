@@ -13,7 +13,7 @@ const SmmPage = (props) => {
     return (
         <>
             <Navbar history={props.history}/>
-            <SmmHeader  image="rec78.svg" text="СММ" content="Продвигайте ваш бизнес через социальные сети"/>
+            <SmmHeader   />
 
             <Smm />
 

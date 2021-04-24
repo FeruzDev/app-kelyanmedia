@@ -14,7 +14,7 @@ class LogoMarceting extends Component {
 
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-6">
                             <h3 data-aos="fade-right"
                                 data-aos-easing="linear"
                                 data-aos-duration="1500" >
@@ -31,7 +31,7 @@ class LogoMarceting extends Component {
                                 различия
                             </p>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-6">
                             <div className="animCircle" data-aos="zoom-in"
                                  data-aos-easing="linear"
                                  data-aos-duration="1500">
@@ -40,14 +40,14 @@ class LogoMarceting extends Component {
                         </div>
 
 
-                        <div className="col-md-6">
+                        <div className="col-6">
                             <div className="animCircle2"  className="animCircle" data-aos="zoom-in"
                                  data-aos-easing="linear"
                                  data-aos-duration="1500">
 
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-6">
                             <h3 data-aos="fade-left"
                                 data-aos-easing="linear"
                                 data-aos-duration="1500"

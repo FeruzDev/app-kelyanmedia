@@ -609,7 +609,7 @@ html{
     color: #362836;
     font-weight: 700;
     font-size: 40px;
-    padding-top: 120px;
+    padding-top: 40px;
   }
 
   h3 {
@@ -893,7 +893,7 @@ p{
   overflow: hidden;
   .row{
     padding: 0;
-    .col-md-6{
+    .col-6{
       padding: 0;
 
       h3 {
@@ -925,7 +925,7 @@ p{
 
       }
     }
-    .col-md-6:nth-child(3){
+    .col-6:nth-child(3){
       img{
         margin-left: -50px;
 
@@ -1200,7 +1200,7 @@ p{
     }
     .row{
 
-      .col-md-6{
+      .col-6{
 
         p{
           font-size: 24px;
@@ -1278,7 +1278,7 @@ p{
       }
 
 
-      .col-md-4{
+      .col-4{
 
         padding-top: 100px;
         text-align: center;
@@ -1610,7 +1610,7 @@ text-align: justify;
     }
 
     .row{
-      .col-md-6{
+      .col-6{
         padding: 60px;
         display: flex;
 
@@ -1849,6 +1849,8 @@ text-align: justify;
                 text-align: center;
                 background: #1E0101;
                 border-radius: 50%;
+                border: 1px solid #fff;
+
                 span {
 
                   margin: 0px auto;
@@ -2387,9 +2389,314 @@ text-align: justify;
   }
 
 
+  .Company{
+    overflow: hidden;
+    .row{
+      padding: 0;
+      .col-6{
+        padding: 0;
+
+        h3 {
+          font-size: 16px;
+
+          margin-top: 30px;
+          margin-bottom: 12px;
+          margin-left: 26px;
+
+        }
+        p{
+          color: #fff;
+          margin-left: 26px;
+          padding-right:  50px;
+          font-size: 8px;
+        }
+        img{
+          width: 100%;
+
+          margin-left:  0px;
+
+        }
+      }
+      .col-md-6:nth-child(3){
+        img{
+          margin-left:  0px;
+
+        }
+      }
+    }
+    .ourTeam{
+
+      .container{
+
+        h2 {
+
+          font-size: 20px;
+          padding-top: 50px;
+        }
+        h3 {
+          font-size: 20px;
+
+          margin-bottom: 10px;
+
+
+        }
+
+        .ourList{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+
+          .ourTeamCard{
+            width: 45%;
+
+            margin-top: 20px;
+            padding-bottom: 12px;
+            text-align: center;
+            img{
+              width: 100%;
+            }
+            h1{
+
+              font-size: 12px;
+              color: #fff;
+              margin-top: 12px;
+              margin-bottom: 12px;
+            }
+
+            span{
+              background-image: url("../components/img/btn-bg.png");
+              background-size: 100% 100%;
+              padding: 5px 20px;
+
+              font-size: 8px;
+
+              color: #fff;
+
+
+            }
+
+          }
+        }
+      }
+    }
 
 
 
+
+
+  }
+
+
+  .Smm{
+    .container{
+      h3 {
+        font-size: 16px;
+
+        margin-top: 36px;
+
+        margin-bottom: 24px;
+
+      }
+      .row{
+        justify-content: space-between;
+
+        padding: 0 12px ;
+        .salCards{
+
+          width: 100px;
+          height: 100px;
+          padding: 12px;
+
+
+          h1{
+            font-size: 18px;
+
+            margin-bottom: 0;
+          }
+
+          p{
+            font-size:  8px;
+
+            margin-bottom: 0;
+          }
+        }
+
+        .salary{
+
+          width: 100%;
+           display: flex;
+
+          align-items: center;
+          text-align: start;
+          img{
+            width: 70px;
+            height: 70px;
+          }
+          p{
+            color: #fff;
+            padding: 20px;
+            font-size: 12px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+
+  }
+
+  .Offers{
+    h3 {
+      font-size:20px;
+
+    }
+
+    .row{
+
+      margin-top: 10px;
+      margin-bottom: 100px;
+      .col-md-4{
+        padding: 10px;
+        .benCard{
+          position: relative;
+          //background: linear-gradient(135.88deg, rgba(58, 129, 191, 0.08) 0%, rgba(65, 48, 90, 0.03) 100.8%);
+          //backdrop-filter: blur(4px);
+
+          background-image: none;
+
+          padding: 10px;
+
+          height: auto;
+
+
+          div {
+
+
+            .numberBack{
+              width: 90px;
+              height: 90px;
+              text-align: center;
+              background: #1E0101;
+              border-radius: 50%;
+              border: 1px solid #fff;
+              span {
+
+                margin: 0px auto;
+                margin-top: 8px;
+
+              }
+            }
+
+            h4 {
+              font-size: 16px;
+              color: #fff;
+
+              margin-left: -10px;
+            }
+          }
+
+
+          p {
+            color: #fff;
+            font-size: 14px;
+            position: relative;
+            z-index: 111;
+            font-weight: 400;
+            line-height: 25px;
+          }
+
+
+
+          h1 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .Marceting{
+    .container{
+
+      h3 {
+        font-size: 14px;
+
+        margin-top: 36px;
+
+      }
+      .row{
+
+        .col-6{
+
+          p{
+            font-size: 10px;
+
+            margin-top: 15px;
+          }
+          .animCircle, .animCircle2{
+
+            width: 150px;
+            height: 150px;
+            margin: 36px auto;
+            //background-color: #21D4FD;;
+
+          }
+          .animCircle2{
+            animation: morphing2 10s infinite !important;
+
+          }
+
+        }
+
+
+
+      }
+    }
+  }
+
+
+  .LogoCases{
+    .container{
+      h2 {
+
+        font-size: 20px;
+        padding-top: 36px;
+      }
+      h3 {
+        font-size: 20px;
+
+        font-weight: 600;
+
+      }
+
+      .row{
+        .col-6{
+          padding: 16px;
+          display: flex;
+
+          justify-content: center;
+          flex-direction: column;
+
+          h1{
+            color: #fff;
+
+            font-size: 14px;
+          }
+
+
+          p{
+            margin-top: 12px;
+
+            font-size: 10px;
+          }
+        }
+      }
+    }
+
+
+
+  }
 
   .Footer{
     margin-top: 50px;

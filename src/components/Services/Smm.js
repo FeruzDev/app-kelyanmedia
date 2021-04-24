@@ -60,7 +60,7 @@ class Smm extends Component {
                           data-aos-easing="linear"
                           data-aos-duration="1200">Что вы получите от смм продвижения?</h3>
 
-                    <div className="row">
+                    <div className="row" style={{"flex-wrap" : "wrap !important"}}>
                         <div className="salary">
                             <img data-aos="fade-up"
                                  data-aos-easing="linear"

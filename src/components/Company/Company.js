@@ -12,7 +12,7 @@ class Company extends Component {
         return (
             <div className="Company">
                 <div className="row">
-                    <div className="col-md-6"
+                    <div className="col-6"
                          data-aos="fade-right"
                          data-aos-easing="linear"
                          data-aos-duration="1500">
@@ -31,7 +31,7 @@ class Company extends Component {
 
 
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-6">
                         <img data-aos="fade-left"
                              data-aos-easing="linear"
                              data-aos-duration="1200"
@@ -42,13 +42,13 @@ class Company extends Component {
 
 
 
-                    <div className="col-md-6">
+                    <div className="col-6">
                         <img src="/img/reb2.png"
                              data-aos="fade-right"
                              data-aos-easing="linear"
                              data-aos-duration="1500" alt=""/>
                     </div>
-                    <div className="col-md-6" data-aos="fade-left"
+                    <div className="col-6" data-aos="fade-left"
                          data-aos-easing="linear"
                          data-aos-duration="1500">
 
@@ -64,7 +64,7 @@ class Company extends Component {
                     </div>
 
 
-                    <div className="col-md-6" data-aos="fade-right"
+                    <div className="col-6" data-aos="fade-right"
                          data-aos-easing="linear"
                          data-aos-duration="1500" >
                         <Typical
@@ -76,7 +76,7 @@ class Company extends Component {
                         <p  >Наш подход работы является системным и каждое действие сверяется рабочей проработаной
                             методологий дающей нужные результаты</p>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-6">
                         <img src="/img/reb3.png"
                              data-aos="fade-left"
                              data-aos-easing="linear"

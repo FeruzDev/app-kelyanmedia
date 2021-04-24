@@ -11,12 +11,11 @@ const LogoPage = (props) => {
     return (
         <>
             <Navbar history={props.history}/>
-            <LogoHeader image="w1.png"/>
+            <LogoHeader  />
             <LogoMarceting/>
             <LogoCases/>
             <Application/>
             <img src="/img/w2.png" className="w2Bottom mt-5 pt-5" alt=""/>
-
             <Footer/>
         </>
     );
