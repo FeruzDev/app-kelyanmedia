@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 
 const Posts = () => {
@@ -6,6 +7,12 @@ const Posts = () => {
    return (
       <div className="Posts">
          <div className="container">
+
+
+
+             <p className="blogTitle">
+                 Статьи которые будут полезны для вас и вашего бизнеса
+             </p>
             <h3
                 data-aos="fade-right"
                 data-aos-easing="linear"
@@ -13,7 +20,7 @@ const Posts = () => {
 
             <div className="posts-content">
                <div className="row">
-                  <div className="col-4" >
+                  <div className="col-md-4" >
                      <div className="card border-0 h-100 bg-transparent text-white"
 >
 
@@ -30,9 +37,13 @@ const Posts = () => {
                            <div>SMM</div>
                            <div>07.02.2021</div>
                         </div>
+                         <div className="blogLine"></div>
+                         <Link className="blogLink">Подробнее</Link>
+
                      </div>
+
                   </div>
-                  <div className="col-4">
+                  <div className="col-md-4">
                      <div className="card h-100 bg-transparent text-white">
                         <div className="card-header p-0 d-flex justify-content-between align-items-center">
                            <p className="mb-0">KELYAN<span>MEDIA</span></p>
@@ -47,9 +58,13 @@ const Posts = () => {
                            <div>SMM</div>
                            <div>07.02.2021</div>
                         </div>
+
+                         <div className="blogLine"></div>
+                         <Link className="blogLink">Подробнее</Link>
+
                      </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-md-4">
                      <div className="card h-100 bg-transparent text-white">
 
                         <div className="card-header p-0 d-flex justify-content-between align-items-center">
@@ -65,9 +80,12 @@ const Posts = () => {
                            <div>SMM</div>
                            <div>07.02.2021</div>
                         </div>
+                         <div className="blogLine"></div>
+                         <Link className="blogLink">Подробнее</Link>
+
                      </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-md-4">
                      <div className="card h-100 bg-transparent text-white" >
                         <div className="card-header p-0 d-flex justify-content-between align-items-center">
                            <p className="mb-0">KELYAN<span>MEDIA</span></p>
@@ -82,9 +100,12 @@ const Posts = () => {
                            <div>SMM</div>
                            <div>07.02.2021</div>
                         </div>
+                         <div className="blogLine"></div>
+                         <Link className="blogLink">Подробнее</Link>
+
                      </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-md-4">
                      <div className="card h-100 bg-transparent text-white" >
 
                         <div className="card-header p-0 d-flex justify-content-between align-items-center">
@@ -100,9 +121,12 @@ const Posts = () => {
                            <div>SMM</div>
                            <div>07.02.2021</div>
                         </div>
+                         <div className="blogLine"></div>
+                         <Link className="blogLink">Подробнее</Link>
+
                      </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-md-4">
                      <div className="card h-100 bg-transparent text-white" >
 
                         <div className="card-header p-0 d-flex justify-content-between align-items-center">
@@ -118,6 +142,9 @@ const Posts = () => {
                            <div>SMM</div>
                            <div>07.02.2021</div>
                         </div>
+                         <div className="blogLine"></div>
+                         <Link className="blogLink">Подробнее</Link>
+
                      </div>
                   </div>
 

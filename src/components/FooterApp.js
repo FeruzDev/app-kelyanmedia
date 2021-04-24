@@ -3,7 +3,7 @@ import React from "react";
 class FooterApp extends React.Component {
     render() {
         return (
-            <div className="canvasBg">
+            <div className="canvasBg2">
                 <Particles
                     params={{
                         "particles": {
