@@ -10,7 +10,7 @@ const CasesPage = (props) => {
     return (
         <>
             <Navbar history={props.history}/>
-            <CasesHeader  image="rec71.svg" text="Компании" content="Компании с которыми  мы сотрудничали"/>
+            <CasesHeader  />
             <CasesPair />
             <Footer/>
         </>

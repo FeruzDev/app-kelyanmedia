@@ -18,7 +18,7 @@ class Application extends Component {
                         wrapper="h3"
                     />
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-8">
                             <input type="text "
                                    data-aos="fade-up"
                                    data-aos-easing="linear"
@@ -37,14 +37,8 @@ class Application extends Component {
                                   type="text" placeholder="99 8 (99) 999-99-99" className="form-control"/>
                           </div>
                         </div>
-                        <div className="col-md-6">
-                            <input   data-aos="fade-up"
-                                     data-aos-easing="linear"
-                                     data-aos-duration="1500"
-                                     data-aos-delay="600"
-                                     type="email"
-                                     placeholder="Ваше email"
-                                     className="form-control"/>
+                        <div className="col-md-4">
+
                             <button
                                 data-aos="fade-up"
                                 data-aos-easing="linear"

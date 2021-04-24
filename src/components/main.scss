@@ -832,12 +832,12 @@ p{
   }
 
   .row{
-    .col-md-6{
+    .col-md-8{
       display: flex;
       flex-wrap: nowrap;
       input{
         background-color: transparent;
-        width: 283px;
+        width: 50%;
 
         height: 70px;
 
@@ -855,6 +855,7 @@ p{
       .inputNumber{
         margin-left: 20px;
         position: relative;
+        width: 50%;
         img{
           position: absolute;
           left: 20px;
@@ -864,17 +865,23 @@ p{
           padding-left: 80px;
           background-color: transparent;
 
+          width: 100%;
           border: 1px solid #7B37FF;
           box-sizing: border-box;
           border-radius: 20px;
         }
       }
+
+    }
+    .col-md-4{
       button{
         background: linear-gradient(90deg, #5F72BD 0%, #9B23EA 100%);
         border-radius: 70px;
         padding-left: 50px;
         padding-right: 50px;
         color: #fff;
+        width: 100%;
+        height: 100%;
         margin-left: 20px;
       }
     }
@@ -2002,6 +2009,7 @@ text-align: justify;
  }
   .Cases{
 
+    margin-top: 36px;
 
     h2 {
 
@@ -2314,7 +2322,69 @@ text-align: justify;
 
 
 
+  .Application{
+    h3 {
+      font-size: 20px;
 
+      margin-bottom: 12px;
+
+    }
+
+    .row{
+      .col-md-8{
+        display: flex;
+        flex-wrap: nowrap;
+        input{
+          width: 50%;
+
+          height: 50px;
+
+          font-size: 12px;
+          color: #989898;
+
+          border-radius: 12px;
+        }
+
+
+        .inputNumber{
+          margin-left: 12px;
+          position: relative;
+          width: 50%;
+          img{
+            width: 20px;
+            position: absolute;
+            left: 10px;
+            top: 15px;
+          }
+          input{
+            padding-left: 35px;
+            border-radius: 12px;
+
+          }
+        }
+
+      }
+      .col-md-4{
+
+        margin-top: 12px;
+
+        text-align: end;
+        width: 100%;
+
+        button{
+
+          background: linear-gradient(90deg, #5F72BD 0%, #9B23EA 100%);
+          border-radius: 70px;
+          padding-left: 50px;
+          padding-right: 50px;
+          color: #fff;
+          width: 50%;
+          height: 100%;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
 
 
 

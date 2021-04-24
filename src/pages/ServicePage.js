@@ -10,7 +10,7 @@ const ServicePage = (props) => {
    return (
       <>
          <Navbar history={props.history}/>
-         <ServiceHeader className="mb-100" image="bg-services.png" text="Услуги"/>
+         <ServiceHeader />
          <Services/>
          <Posts/>
          <Application />
