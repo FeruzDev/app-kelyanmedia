@@ -10,9 +10,6 @@ const Posts = () => {
 
 
 
-             <p className="blogTitle">
-                 Статьи которые будут полезны для вас и вашего бизнеса
-             </p>
             <h3
                 data-aos="fade-right"
                 data-aos-easing="linear"
@@ -38,7 +35,7 @@ const Posts = () => {
                            <div>07.02.2021</div>
                         </div>
                          <div className="blogLine"></div>
-                         <Link className="blogLink">Подробнее</Link>
+                         <Link to="/blog/1" className="blogLink">Подробнее</Link>
 
                      </div>
 

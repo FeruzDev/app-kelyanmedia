@@ -22,13 +22,13 @@ class Application extends Component {
                             <input type="text "
                                    data-aos="fade-up"
                                    data-aos-easing="linear"
-                                   data-aos-duration="1500"
+                                   data-aos-duration="1000"
                                    placeholder="Ваше имя"
                                    className="form-control"/>
                           <div className="inputNumber"
                                data-aos="fade-up"
                                data-aos-easing="linear"
-                               data-aos-duration="1500"
+                               data-aos-duration="1000"
                                data-aos-delay="300"
                           >
                               <img src="/img/icon/flag.svg" alt=""/>
@@ -42,8 +42,8 @@ class Application extends Component {
                             <button
                                 data-aos="fade-up"
                                 data-aos-easing="linear"
-                                data-aos-duration="1500"
-                                data-aos-delay="1200"
+                                data-aos-duration="1000"
+                                data-aos-delay="500"
                                 className="btn">Отправить</button>
                         </div>
                     </div>

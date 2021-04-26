@@ -25,15 +25,15 @@ class SerContact extends Component {
 
 
                             <form>
-                                <label htmlFor="name">Ваше имя</label>
-                                <input  className="form-control" type="text" id="name"/>
+                               <div>
+                                   <label htmlFor="name">Ваше имя</label>
+                                   <input  className="form-control" type="text" id="name"/>
+                               </div>
 
-                                <label htmlFor="name">Телефон</label>
-                                <input  className="form-control" type="text" id="name"/>
-
-                                <label htmlFor="name">Е-mail</label>
-                                <input  className="form-control" type="email" id="name"/>
-
+                             <div>
+                                 <label htmlFor="name">Телефон</label>
+                                 <input  className="form-control" type="text" id="name"/>
+                             </div>
 
                                 <button className="btn btn-block mt-4">Подтвердить</button>
                             </form>

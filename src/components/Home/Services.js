@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import AOS from "aos";
+import {Link} from "react-router-dom";
 
 class Services extends Component {
 
@@ -15,16 +16,17 @@ class Services extends Component {
             <div className="Services">
 
                 <div className="container">
+                    <h2>Что мы можем вам предложить</h2>
                     <h3
                         data-aos="fade-right"
                         data-aos-easing="linear"
-                        data-aos-duration="1500">УСЛУГИ</h3>
+                        data-aos-duration="1000">УСЛУГИ</h3>
 
                     <div className="row">
                         <div className="col-md-4"
                              data-aos="flip-left"
                              data-aos-easing="ease-out-cubic"
-                             data-aos-duration="2000">
+                             data-aos-duration="1500">
                             <div className="serCard">
 
 
@@ -41,7 +43,7 @@ class Services extends Component {
 
                                   </ul>
                                <div  >
-                                   <a href="#!" className="rounded-pill">Подробнее</a>
+                                   <Link to="/smm" className="rounded-pill">Подробнее</Link>
                                </div>
                             </div>
                         </div>
@@ -51,7 +53,7 @@ class Services extends Component {
                         <div className="col-md-4"
                              data-aos="flip-up"
                              data-aos-easing="ease-out-cubic"
-                             data-aos-duration="2000"
+                             data-aos-duration="1500"
                         >
                             <div className="serCard">
 
@@ -69,7 +71,7 @@ class Services extends Component {
 
                                 </ul>
                                 <div  >
-                                    <a href="#!" className="rounded-pill">Подробнее</a>
+                                    <Link to="/marceting" className="rounded-pill">Подробнее</Link>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +80,7 @@ class Services extends Component {
                         <div className="col-md-4"
                              data-aos="flip-right"
                              data-aos-easing="ease-out-cubic"
-                             data-aos-duration="2000">
+                             data-aos-duration="1500">
                             <div className="serCard">
 
 
@@ -95,7 +97,7 @@ class Services extends Component {
 
                                 </ul>
                                 <div  >
-                                    <a href="#!" className="rounded-pill">Подробнее</a>
+                                    <Link to="/logo-page" className="rounded-pill">Подробнее</Link>
                                 </div>
                             </div>
                         </div>

@@ -60,11 +60,7 @@ class SubHome extends Component {
                             Составление ежемесячного отчета, анализ ошибок и их исправление
                         </li>
                     </ul>
-                    <h2  data-aos="fade-right"
-                         data-aos-easing="linear"
-                         data-aos-duration="1500">
-                        Чем мы вам поможем?
-                    </h2>
+
                 </div>
             </div>
         );

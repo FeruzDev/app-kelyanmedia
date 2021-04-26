@@ -6,9 +6,7 @@ class BlogItem extends Component {
             <div className="BlogItem">
                 <div className="container">
 
-                    <p className="blogTitle">
-                        Статьи которые будут полезны для вас и вашего бизнеса
-                    </p>
+
                     <div className="row">
 
                         <div className="blogDate">
@@ -20,7 +18,7 @@ class BlogItem extends Component {
 
                         <div className="col-md-6">
 
-                            <img src="/img/rec1.png"/>
+                            <img src="/img/rec11.png"/>
 
                             <p>Масслайкинг в Инстаграм — это автоматизированный процесс проставления лайков к записям,
                                 фотографиям или видео пользователей. Обычно масслайкинг запускается по заранее собранной
@@ -94,6 +92,63 @@ class BlogItem extends Component {
                                     </div>
                                     <div className="card-body p-0">
                                         <div className="overflow-hidden"><img src="/img/rec11.png" alt="" className="w-100"/></div>
+
+                                        <h4>Масслайкинг в Инстаграме: Что это такое?</h4>
+                                    </div>
+                                    <div className="card-footer p-0 d-flex justify-content-between align-items-center">
+                                        <div>SMM</div>
+                                        <div>07.02.2021</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="col-md-4">
+                                <div className="card h-100 bg-transparent text-white">
+                                    <div className="card-header p-0 d-flex justify-content-between align-items-center">
+                                        <p className="mb-0">KELYAN<span>MEDIA</span></p>
+                                        <div className="tag">SMM</div>
+                                    </div>
+                                    <div className="card-body p-0">
+                                        <div className="overflow-hidden"><img src="/img/rec3.png" alt="" className="w-100"/></div>
+
+                                        <h4>Масслайкинг в Инстаграме: Что это такое?</h4>
+                                    </div>
+                                    <div className="card-footer p-0 d-flex justify-content-between align-items-center">
+                                        <div>SMM</div>
+                                        <div>07.02.2021</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="col-md-4">
+                                <div className="card h-100 bg-transparent text-white">
+                                    <div className="card-header p-0 d-flex justify-content-between align-items-center">
+                                        <p className="mb-0">KELYAN<span>MEDIA</span></p>
+                                        <div className="tag">SMM</div>
+                                    </div>
+                                    <div className="card-body p-0">
+                                        <div className="overflow-hidden"><img src="/img/rec11.png" alt="" className="w-100"/></div>
+
+                                        <h4>Масслайкинг в Инстаграме: Что это такое?</h4>
+                                    </div>
+                                    <div className="card-footer p-0 d-flex justify-content-between align-items-center">
+                                        <div>SMM</div>
+                                        <div>07.02.2021</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="col-md-4">
+                                <div className="card h-100 bg-transparent text-white">
+                                    <div className="card-header p-0 d-flex justify-content-between align-items-center">
+                                        <p className="mb-0">KELYAN<span>MEDIA</span></p>
+                                        <div className="tag">SMM</div>
+                                    </div>
+                                    <div className="card-body p-0">
+                                        <div className="overflow-hidden"><img src="/img/rec3.png" alt="" className="w-100"/></div>
 
                                         <h4>Масслайкинг в Инстаграме: Что это такое?</h4>
                                     </div>

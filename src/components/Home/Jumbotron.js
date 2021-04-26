@@ -32,8 +32,8 @@ componentDidMount() {
                      <div className="col-md-8">
                          <p data-aos="fade-up"
                             data-aos-easing="linear"
-                            data-aos-duration="1500">
-                             Возвышаем вас бизнес на новый уровень и повышаем  продажи
+                            data-aos-duration="1000">
+                             Возвышаем ваш бизнес на новый уровень и повышаем  продажи
                          </p>
                      </div>
 

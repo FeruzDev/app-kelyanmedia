@@ -17,12 +17,12 @@ class LogoMarceting extends Component {
                         <div className="col-6">
                             <h3 data-aos="fade-right"
                                 data-aos-easing="linear"
-                                data-aos-duration="1500" >
+                                data-aos-duration="1000" >
                                 Уникальный логотип
                             </h3>
                             <p data-aos="fade-right"
                                data-aos-easing="linear"
-                               data-aos-duration="1500"
+                               data-aos-duration="1000"
 
                                data-aos-delay="300"
                             >
@@ -34,7 +34,7 @@ class LogoMarceting extends Component {
                         <div className="col-6">
                             <div className="animCircle" data-aos="zoom-in"
                                  data-aos-easing="linear"
-                                 data-aos-duration="1500">
+                                 data-aos-duration="1000">
 
                             </div>
                         </div>
@@ -43,20 +43,20 @@ class LogoMarceting extends Component {
                         <div className="col-6">
                             <div className="animCircle2"  className="animCircle" data-aos="zoom-in"
                                  data-aos-easing="linear"
-                                 data-aos-duration="1500">
+                                 data-aos-duration="1000">
 
                             </div>
                         </div>
                         <div className="col-6">
                             <h3 data-aos="fade-left"
                                 data-aos-easing="linear"
-                                data-aos-duration="1500"
+                                data-aos-duration="1000"
  >
                                 Гармоничный гайдлайн
                             </h3>
                             <p data-aos="fade-left"
                                data-aos-easing="linear"
-                               data-aos-duration="1500"
+                               data-aos-duration="1000"
 
                                data-aos-delay="300">
                                 То как используются цвета и расположение ключевых элементов в вашей компании зависит его

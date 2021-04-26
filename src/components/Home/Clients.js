@@ -97,7 +97,7 @@ class Clients extends Component {
 
                     <h3 data-aos="fade-right"
                         data-aos-easing="linear"
-                        data-aos-duration="1500"
+                        data-aos-duration="1000"
 
                         className="  mr-auto ml-auto "
                     >
@@ -105,14 +105,14 @@ class Clients extends Component {
                     </h3>
                     <p data-aos="fade-up"
                        data-aos-easing="linear"
-                       data-aos-duration="1200">
+                       data-aos-duration="1000">
                         Значит, можете самостоятельно убедиться в нашем навыке раскрывать продукт перед целевой
                         аудиторией!
 
                     </p>
                     <p data-aos="fade-up"
                        data-aos-easing="linear"
-                       data-aos-duration="1200"
+                       data-aos-duration="1000"
 
                        data-aos-delay="300"
                     >
@@ -125,7 +125,7 @@ class Clients extends Component {
 
                              data-aos="fade-right"
                              data-aos-easing="linear"
-                             data-aos-duration="1200"
+                             data-aos-duration="1000"
 
                         >
 
@@ -154,7 +154,7 @@ class Clients extends Component {
 
                              data-aos="fade-left"
                              data-aos-easing="linear"
-                             data-aos-duration="1200">
+                             data-aos-duration="1000">
 
                             <p className="mb-5">
                                 Оставьте заявку на бесплатный разбор вашего бизнеса

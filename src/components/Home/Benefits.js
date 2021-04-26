@@ -14,10 +14,10 @@ class Benefits extends Component {
                 <div className="container">
                     <h2 data-aos="fade-right"
                         data-aos-easing="linear"
-                        data-aos-duration="1500">Что вы получите от работы с нами?</h2>
+                        data-aos-duration="1000">Что вы получите от работы с нами?</h2>
                     <h3 data-aos="fade-right"
                         data-aos-easing="linear"
-                        data-aos-duration="1500"
+                        data-aos-duration="1000"
                     data-aos-delay="300"
 
 
@@ -28,7 +28,7 @@ class Benefits extends Component {
                             <div className="benCard"
                                  data-aos="fade-up"
                                  data-aos-easing="linear"
-                                 data-aos-duration="1500">
+                                 data-aos-duration="1000">
 
                                 <div>
                                     <span className="numberBack">
@@ -54,7 +54,7 @@ class Benefits extends Component {
                             <div className="benCard"
                                  data-aos="fade-up"
                                  data-aos-easing="linear"
-                                 data-aos-duration="1500"
+                                 data-aos-duration="1000"
                                  data-aos-delay="300">
 
                                 <div>
@@ -77,7 +77,7 @@ class Benefits extends Component {
                             <div className="benCard"
                                  data-aos="fade-up"
                                  data-aos-easing="linear"
-                                 data-aos-duration="1500"
+                                 data-aos-duration="1000"
                                  data-aos-delay="600">
 
                                 <div>
@@ -99,7 +99,7 @@ class Benefits extends Component {
                             <div className="benCard"
                                  data-aos="fade-up"
                                  data-aos-easing="linear"
-                                 data-aos-duration="1500"
+                                 data-aos-duration="1000"
                                  data-aos-delay="900">
 
                                 <div>

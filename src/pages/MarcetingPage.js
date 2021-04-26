@@ -15,7 +15,7 @@ const CompanyPage = (props) => {
     return (
         <>
             <Navbar history={props.history}/>
-            <MarcetingHeader  image="rec78.svg" text="Маркетинг" content="Реальный Маркетинг " title="Поможем выстроить рабочую стратегию привлечения клиентов"/>
+            <MarcetingHeader />
 
 
             <Marceting/>

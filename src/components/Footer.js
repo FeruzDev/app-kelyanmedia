@@ -20,7 +20,7 @@ class Footer extends Component {
                       <div className="line" />
                       <h2 data-aos="zoom-in"
                           data-aos-easing="linear"
-                          data-aos-duration="1500"
+                          data-aos-duration="1000"
                       >Давайте работать вместе!</h2>
 
                       <Typical
@@ -55,16 +55,16 @@ class Footer extends Component {
 
                       <h2 data-aos="fade-right"
                           data-aos-easing="linear"
-                          data-aos-duration="1500"
+                          data-aos-duration="1000"
 
                       >Вы ещё думаете заказать у нас пакет или нет?</h2>
                       <h2 data-aos="fade-left"
                           data-aos-easing="linear"
-                          data-aos-duration="1500"
+                          data-aos-duration="1000"
                       >Телефон для связи <img src="/img/icon/phone.svg" className="ml-3" alt=""/> <span>+998 33 339 3334</span></h2>
                       <p data-aos="fade-up"
                          data-aos-easing="linear"
-                         data-aos-duration="1500"
+                         data-aos-duration="1000"
                          data-aos-delay="100">
                           Пора бы уже сделать стремительный шаг в развитие вашего бизнеса!
                       </p>
@@ -72,7 +72,7 @@ class Footer extends Component {
                       <div className="line" />
                       <h6 data-aos="zoom-in"
                           data-aos-easing="linear"
-                          data-aos-duration="1500"
+                          data-aos-duration="1000"
                           data-aos-delay="100">© 2021 KELYAN MEDIA</h6>
                   </div>
 

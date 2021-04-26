@@ -15,7 +15,7 @@ class Company extends Component {
                     <div className="col-6"
                          data-aos="fade-right"
                          data-aos-easing="linear"
-                         data-aos-duration="1500">
+                         data-aos-duration="1000">
 
                         <Typical
                             steps={[' Метод работы', 1000]}
@@ -34,7 +34,7 @@ class Company extends Component {
                     <div className="col-6">
                         <img data-aos="fade-left"
                              data-aos-easing="linear"
-                             data-aos-duration="1200"
+                             data-aos-duration="1000"
                              src="/img/reb1.png" alt=""/>
                     </div>
 
@@ -50,7 +50,7 @@ class Company extends Component {
                     </div>
                     <div className="col-6" data-aos="fade-left"
                          data-aos-easing="linear"
-                         data-aos-duration="1500">
+                         data-aos-duration="1000">
 
                         <Typical
                             steps={['  История компании', 1000]}
@@ -66,7 +66,7 @@ class Company extends Component {
 
                     <div className="col-6" data-aos="fade-right"
                          data-aos-easing="linear"
-                         data-aos-duration="1500" >
+                         data-aos-duration="1000" >
                         <Typical
                             steps={[' Наша команда', 1000]}
                             loop={1}
@@ -80,7 +80,7 @@ class Company extends Component {
                         <img src="/img/reb3.png"
                              data-aos="fade-left"
                              data-aos-easing="linear"
-                             data-aos-duration="1500"
+                             data-aos-duration="1000"
                              alt=""/>
                     </div>
 

@@ -5,6 +5,7 @@ class App extends React.Component {
         return (
             <div className="canvasBg">
                 <Particles
+                    id="nizom"
                     params={{
                         "particles": {
                             "number": {
