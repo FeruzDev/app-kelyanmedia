@@ -13,6 +13,7 @@ class LogoMarceting extends Component {
 
 
                 <div className="container">
+
                     <div className="row">
                         <div className="col-6">
                             <h3 data-aos="fade-right"

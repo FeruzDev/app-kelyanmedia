@@ -34,7 +34,7 @@ class LogoCases extends Component {
                                data-aos-easing="linear"
                                data-aos-duration="1000"
 
-                               data-aos-delay="300"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                               data-aos-delay="300">Компания по продаже украшений из бриллиантов и драгоценных камней </p>
 
                         </div>
 
@@ -144,10 +144,9 @@ class LogoCases extends Component {
                         data-aos-easing="linear"
                         data-aos-duration="1000"
                         className="ml-auto mr-auto text-white text-center  mt-4 ml-5 mr-5 mb-5"
-                         >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit consectetur sed neque id
-                        habitant. Hac eu phasellus imperdiet imperdiet adipiscing sed tristique sit donec. Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit. Pharetra, sit consectetur sed neque id habitant.
-                        Hac eu phasellus imperdiet imperdiet adipiscing sed tristique sit donec.</p>
+                         >Разработка логотипа занимает от 3 до 5 рабочих дней
+                        Разработка брендбука от 5 до 10 рабочих дней
+                        Для начала работы с вас требуется заполнение брифа и небольшие комментарии и предпочтения</p>
                 </div>
 
 

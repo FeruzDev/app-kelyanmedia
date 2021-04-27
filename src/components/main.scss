@@ -1153,7 +1153,7 @@ p{
         align-items: center;
         justify-content: center;
         h1{
-          font-size: 64px;
+          font-size: 44px;
           color: #fff;
         }
 
@@ -1291,6 +1291,7 @@ p{
 
 
 .Marceting{
+  overflow: hidden;
   .container{
     .sel{
       color: #fff;
@@ -1756,6 +1757,7 @@ text-align: justify;
 
 
 .LogoCases{
+  overflow: hidden;
   .container{
     h2 {
       color: #362836;
@@ -2814,7 +2816,7 @@ text-align: justify;
       }
 
       h3 {
-        font-size: 14px;
+        font-size: 20px;
 
         margin-top: 36px;
 
@@ -2822,11 +2824,14 @@ text-align: justify;
       .row{
 
         .col-6{
+          h1{
+            font-size: 12px !important;
+          }
 
           p{
-            font-size: 10px;
+            font-size: 12px;
 
-            margin-top: 15px;
+            margin-top:  5px;
           }
           .animCircle, .animCircle2{
 
@@ -2849,7 +2854,9 @@ text-align: justify;
       .serviceAll{
         margin-top: 50px;
         .col-4{
+          padding: 5px;
           padding-bottom: 50px;
+
 
           img{
             width: 70px;
@@ -2857,13 +2864,13 @@ text-align: justify;
           }
 
           h1{
-            font-size:10px;
+            font-size:12px;
             margin-top: 20px;
 
           }
           p{
-            font-size: 6px;
-            margin-top: 12px;
+            font-size: 10px;
+            margin-top: 5px;
           }
         }
         .col-6{
@@ -2875,10 +2882,13 @@ text-align: justify;
           }
 
           h1{
-            font-size: 10px;
+            font-size: 14px;
             color: #fff;
             margin-top: 20px;
 
+          }
+          p{
+            font-size: 10px;
           }
         }
       }
@@ -3024,14 +3034,14 @@ text-align: justify;
           h1{
             color: #fff;
 
-            font-size: 14px;
+            font-size: 16px;
           }
 
 
           p{
             margin-top: 12px;
 
-            font-size: 10px;
+            font-size: 12px;
           }
         }
       }

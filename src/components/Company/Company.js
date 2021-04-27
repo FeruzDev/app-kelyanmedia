@@ -113,15 +113,10 @@ class Company extends Component {
 
                         <div className="ourList">
                             <div className="ourTeamCard ">
-                                <img data-aos="flip-left"
-                                     data-aos-easing="linear"
-                                     data-aos-duration="1500"
-
+                                <img
                                      className="w-100"
                                      src="/img/ourTeam1.png" alt=""/>
-                                <h1 data-aos="zoom-out"
-                                    data-aos-easing="linear"
-                                    data-aos-duration="1500"
+                                <h1
                                 >Алтыбаев Руслан</h1>
                                 <span>Дизайнер</span>
                             </div>
@@ -129,77 +124,51 @@ class Company extends Component {
 
                             <div className="ourTeamCard ">
                                 <img
-                                    data-aos="flip-right"
-                                    data-aos-easing="linear"
-                                    data-aos-duration="1500"
+
                                     className="w-100"
                                     src="/img/ourTeam2.png" alt=""/>
-                                <h1  data-aos="zoom-out"
-                                     data-aos-easing="linear"
-                                     data-aos-duration="1500">Агаси Аракелян </h1>
+                                <h1  >Агаси Аракелян </h1>
                                 <span>Маркетолог</span>
                             </div>
 
                             <div className="ourTeamCard ">
                                 <img
-                                    data-aos="flip-left"
-                                    data-aos-easing="linear"
-                                    data-aos-duration="1500"
-                                    data-aos-delay="200"
+
                                     className="w-100"
                                     src="/img/ourTeam3.png"
                                     alt=""/>
-                                <h1  data-aos="zoom-out"
-                                     data-aos-easing="linear"
-                                     data-aos-duration="1500">Данил Лапин </h1>
+                                <h1  >Данил Лапин </h1>
                                 <span>Арт директор</span>
                             </div>
 
 
                             <div className="ourTeamCard ">
                                 <img
-                                    data-aos="flip-right"
-                                    data-aos-easing="linear"
-                                    data-aos-duration="1500"
-                                    data-aos-delay="200"
+
                                     className="w-100"
                                     src="/img/ourTeam4.png"
                                     alt=""/>
-                                <h1  data-aos="zoom-out"
-                                     data-aos-easing="linear"
-                                     data-aos-duration="1500">Хусан Мадамбеков </h1>
+                                <h1   >Хусан Мадамбеков </h1>
                                 <span>Дизайнер</span>
                             </div>
 
 
                             <div className="ourTeamCard ">
-                                <img data-aos="flip-left"
-                                     data-aos-easing="linear"
-                                     data-aos-duration="1500"
-                                     data-aos-delay="400"
+                                <img
                                      className="w-100"
 
                                      src="/img/ourTeam5.png"
                                      alt=""/>
-                                <h1  data-aos="zoom-out"
-                                     data-aos-easing="linear"
-                                     data-aos-duration="1500">Хашимова Севара </h1>
+                                <h1  >Хашимова Севара </h1>
                                 <span>Копирайтер</span>
                             </div>
 
 
                             <div className="ourTeamCard ">
-                                <img data-aos="flip-right"
-                                     data-aos-easing="linear"
-                                     data-aos-duration="1500"
-                                     data-aos-delay="400"
-                                     className="w-100"
+                                <img className="w-100"
                                      src="/img/ourTeam6.png"
                                      alt=""/>
-                                <h1  data-aos="zoom-out"
-                                     data-aos-easing="linear"
-                                     data-aos-duration="1500"
-                                >Алина Осипова</h1>
+                                <h1  >Алина Осипова</h1>
                                 <span>Аккаунт менеджер</span>
                             </div>
                         </div>

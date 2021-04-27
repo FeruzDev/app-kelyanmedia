@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import HomePage from "./pages/HomePage";
 import ServicePage from "./pages/ServicePage";
@@ -21,7 +23,6 @@ function App() {
                <Route path="/cases" exact component={CasesPage}/>
                <Route path="/about" exact component={CompanyPage}/>
                <Route path="/smm" exact component={SmmPage}/>
-
                <Route path="/marceting" exact component={MarcetingPage}/>
                <Route path="/logo-page" exact component={LogoPage}/>
             </Switch>

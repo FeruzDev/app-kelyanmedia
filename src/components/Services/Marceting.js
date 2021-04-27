@@ -6,6 +6,7 @@ class Marceting extends Component {
             <div className="Marceting">
 
                 <div className="container">
+                    <h3 className="text-center">Что вы получите от реального маркетинга?</h3>
                     <div className="row">
                         <div className="col-6">
                             <h3>

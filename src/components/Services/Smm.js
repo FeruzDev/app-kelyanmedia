@@ -12,7 +12,7 @@ class Smm extends Component {
     render() {
         return (
             <div className="Smm">
-                <div className="container">
+                <div className="container text-center">
                     <h3  data-aos="fade-up"
                          data-aos-easing="linear"
                          data-aos-duration="1200"

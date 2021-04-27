@@ -7,14 +7,16 @@ import AOS from "aos";
 class Clients extends Component {
 
 
-
-
-
-
-    state = {
-        minutes: 25,
-        seconds: 0,
+    constructor(props) {
+        super(props);
+        this.state = {
+            minutes: 25,
+            seconds: 0,
+        }
     }
+
+
+
 
     componentDidMount() {
         this.myInterval = setInterval(() => {
