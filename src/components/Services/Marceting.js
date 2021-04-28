@@ -6,10 +6,11 @@ class Marceting extends Component {
             <div className="Marceting">
 
                 <div className="container">
-                    <h3 className="text-center">Что вы получите от реального маркетинга?</h3>
+                    <h3 className="text-center styles_typicalWrapper__1_Uvh">Что вы получите от реального маркетинга?</h3>
                     <div className="row">
                         <div className="col-6">
-                            <h3>
+                            <h3  className="styles_typicalWrapper__1_Uvh"
+                            >
                                 Маркетинговый отдел
                             </h3>
                             <p>
@@ -31,7 +32,7 @@ class Marceting extends Component {
                             </div>
                         </div>
                         <div className="col-6">
-                            <h3>
+                            <h3  className="styles_typicalWrapper__1_Uvh">
                                 Комплексный подход
                             </h3>
                             <p>
@@ -43,7 +44,7 @@ class Marceting extends Component {
                     </div>
 
 
-                    <h3>
+                    <h3  className="styles_typicalWrapper__1_Uvh">
                         Что входит в реальный маркетинг?
                     </h3>
                     <div className="row serviceAll">

@@ -9,7 +9,7 @@ class ConsultationApplication extends Component {
                       <div className="col-md-6">
                           <h1>Оставить <br/>
                               заявку на
-                              <span>консультацию</span></h1>
+                              <span className="styles_typicalWrapper__1_Uvh">консультацию</span></h1>
                           <img src="/img/icon/left-arrow.png" className="arrow" alt="..."/>
                       </div>
                       <div className="col-md-6">

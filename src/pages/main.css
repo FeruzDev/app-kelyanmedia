@@ -120,9 +120,9 @@ svg  path {
 }
 
 @keyframes fly {
-0%{
-    transform: translateY(0px) translatex(0px);
-}
+    0%{
+        transform: translateY(0px) translatex(0px);
+    }
     100%{
         transform: translateY(-900px) translatex(-1200px);
 

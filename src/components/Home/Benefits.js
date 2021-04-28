@@ -18,8 +18,8 @@ class Benefits extends Component {
                     <h3 data-aos="fade-right"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
-                    data-aos-delay="300"
-
+                        data-aos-delay="300"
+                        className="styles_typicalWrapper__1_Uvh"
 
                     >Ваши выгоды</h3>
 
@@ -61,7 +61,7 @@ class Benefits extends Component {
                                    <span className="numberBack">
                                         <span>2</span>
                                     </span>
-                                    <h4>Сокращаем расходы на <br/>
+                                    <h4>Сокращаем расходы <br/>на
                                         рекламу</h4>
                                 </div>
                                 <p>

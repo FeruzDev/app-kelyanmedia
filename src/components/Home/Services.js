@@ -20,7 +20,10 @@ class Services extends Component {
                     <h3
                         data-aos="fade-right"
                         data-aos-easing="linear"
-                        data-aos-duration="1000">УСЛУГИ</h3>
+                        data-aos-duration="1000"
+                        className="styles_typicalWrapper__1_Uvh"
+
+                    >УСЛУГИ</h3>
 
                     <div className="row">
                         <div className="col-md-4"

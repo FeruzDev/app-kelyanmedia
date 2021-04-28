@@ -13,7 +13,10 @@ class LogoCases extends Component {
                         data-aos-easing="linear"
                         data-aos-duration="1000"
 
-                        data-aos-delay="300">КЕЙСЫ</h3>
+                        data-aos-delay="300"
+
+                        className="styles_typicalWrapper__1_Uvh"
+                    >КЕЙСЫ</h3>
 
 
                     <div className="row mb-5">
@@ -135,7 +138,7 @@ class LogoCases extends Component {
                         data-aos="zoom-in"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
-                        className="ml-auto mr-auto  "
+                        className="ml-auto mr-auto styles_typicalWrapper__1_Uvh"
                         style={{"margin-top": "100px"}}>
                         Давайте вместе разработаем лого
                     </h3>

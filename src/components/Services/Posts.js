@@ -13,7 +13,8 @@ const Posts = () => {
             <h3
                 data-aos="fade-right"
                 data-aos-easing="linear"
-                data-aos-duration="1000">СТАТЬИ</h3>
+                data-aos-duration="1000"
+                className="styles_typicalWrapper__1_Uvh">СТАТЬИ</h3>
 
             <div className="posts-content">
                <div className="row">

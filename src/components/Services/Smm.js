@@ -16,6 +16,7 @@ class Smm extends Component {
                     <h3  data-aos="fade-up"
                          data-aos-easing="linear"
                          data-aos-duration="1200"
+                         className="styles_typicalWrapper__1_Uvh"
                     >Увеличение вашего дохода через социальные сети</h3>
 
 
@@ -58,7 +59,9 @@ class Smm extends Component {
 
                     <h3   data-aos="flip-up"
                           data-aos-easing="linear"
-                          data-aos-duration="1200">Что вы получите от смм продвижения?</h3>
+                          data-aos-duration="1200"
+                          className="styles_typicalWrapper__1_Uvh"
+                    >Что вы получите от смм продвижения?</h3>
 
                     <div className="row" style={{"flex-wrap" : "wrap !important"}}>
                         <div className="salary">

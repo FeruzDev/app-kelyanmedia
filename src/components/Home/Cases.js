@@ -6,15 +6,9 @@ class Cases extends Component {
         return (
             <div className="Cases">
              <div className="container">
-                 <h2 data-aos="fade-right"
-                     data-aos-easing="linear"
-                     data-aos-duration="1200"
-
-                 >Наше портфолио</h2>
-                 <h3 data-aos="fade-right"
-                     data-aos-easing="linear"
-                     data-aos-duration="1200"
-                     data-aos-delay="300">КЕЙСЫ</h3>
+                 <h2 >Наше портфолио</h2>
+                 <h3 className="styles_typicalWrapper__1_Uvh"
+                 >КЕЙСЫ</h3>
              </div>
                 
                 <div className="row">

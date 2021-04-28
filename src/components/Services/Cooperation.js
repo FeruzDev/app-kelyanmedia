@@ -5,7 +5,7 @@ class Cooperation extends Component {
         return (
             <div className="Cooperation">
                 <div className="container">
-                    <h3>
+                    <h3  className="styles_typicalWrapper__1_Uvh">
                         Этапы содрудничества
                     </h3>
 

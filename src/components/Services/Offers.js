@@ -14,7 +14,9 @@ class Offers extends Component {
                 <div className="container">
                     <h3  data-aos="fade-right"
                          data-aos-easing="linear"
-                         data-aos-duration="1200">ЧТО МЫ ПРЕДЛАГАЕМ?</h3>
+                         data-aos-duration="1200"
+                         className="styles_typicalWrapper__1_Uvh"
+                    >ЧТО МЫ ПРЕДЛАГАЕМ?</h3>
 
                     <div className="row">
                         <div className="col-md-4">

@@ -11,11 +11,13 @@ class Loader extends Component {
                     <div className="kImg">
                         <img src="/img/k.png" alt="" />
 
-                            <svg viewBox="0 0 1320 300">
+                            <span>
+                                <svg viewBox="0 0 1320 300">
                                 <text x="50%" y="50%" dy=".35em" text-anchor="middle">
                                     KELYANMEDIA
                                 </text>
                             </svg>
+                            </span>
                     </div>
                     <div className="kF">
 

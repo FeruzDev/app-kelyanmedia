@@ -14,6 +14,7 @@ class SubHome extends Component {
                         data-aos-easing="linear"
                         data-aos-duration="1000"
                         data-aos-delay="1000"
+                        className="styles_typicalWrapper__1_Uvh"
                     >
                         Ключевые аспекты продвижения
                     </h3>

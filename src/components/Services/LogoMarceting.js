@@ -18,7 +18,9 @@ class LogoMarceting extends Component {
                         <div className="col-6">
                             <h3 data-aos="fade-right"
                                 data-aos-easing="linear"
-                                data-aos-duration="1000" >
+                                data-aos-duration="1000"
+                                className="styles_typicalWrapper__1_Uvh"
+                            >
                                 Уникальный логотип
                             </h3>
                             <p data-aos="fade-right"
@@ -52,7 +54,9 @@ class LogoMarceting extends Component {
                             <h3 data-aos="fade-left"
                                 data-aos-easing="linear"
                                 data-aos-duration="1000"
- >
+                                className="styles_typicalWrapper__1_Uvh"
+
+                            >
                                 Гармоничный гайдлайн
                             </h3>
                             <p data-aos="fade-left"

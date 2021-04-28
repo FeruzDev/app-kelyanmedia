@@ -72,6 +72,9 @@ html{
     background-color: #120212;
 
     font-family: SFUIDisplay-Regular !important;
+    .styles_typicalWrapper__1_Uvh::after{
+      content: "" !important;
+    }
     .mb-100{
       margin-bottom: 100px;
     }
@@ -454,7 +457,7 @@ html{
             padding: 20px;
 
             border-radius: 30px;
-            height: 320px;
+            height: 350px;
 
 
             div {
@@ -478,16 +481,17 @@ html{
               }
 
               h4 {
-                font-size: 14px;
+                font-size: 18px;
                 color: #fff;
                 margin-top: 10px;
+                margin-left: 10px;
               }
             }
 
 
             p {
               color: #fff;
-              font-size: 14px;
+              font-size: 16px;
               position: relative;
               z-index: 111;
               font-weight: 400;
@@ -536,8 +540,9 @@ html{
         .col-md-3:nth-child(2), .col-md-3:nth-child(3), .col-md-3:nth-child(4) {
           .benCard {
             p {
-              margin-top: 50px;
-              line-height: 20px;
+              margin-top: 20px;
+              line-height: 25px;
+              text-align: justify;
             }
           }
         }
@@ -800,7 +805,7 @@ html{
       }
       h1{
         color: #323232;
-        margin-top: 5px;
+        margin-top: 10px;
         font-size: 98px;
         text-align: center;
         position: relative;
@@ -1243,7 +1248,7 @@ p{
           }
 
           h4 {
-            font-size: 14px;
+            font-size: 18px;
             color: #fff;
             margin-top: 10px;
             margin-left: 10px;
@@ -1253,7 +1258,7 @@ p{
 
         p {
           color: #fff;
-          font-size: 14px;
+          font-size: 16px;
           position: relative;
           z-index: 111;
           font-weight: 400;
@@ -2034,6 +2039,17 @@ text-align: justify;
                   margin-top: 10px;
                   //padding: 30px;
                   font-size: 48px;
+
+
+                  background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+                  background: -webkit-linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  color: #FFD66B;
+
+                  font-weight: 700;
+                  display: table;
                 }
               }
 

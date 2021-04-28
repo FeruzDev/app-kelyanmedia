@@ -108,6 +108,8 @@ class Company extends Component {
                               data-aos-easing="linear"
                               data-aos-duration="1500"
                          data-aos-delay="500"
+                              className="styles_typicalWrapper__1_Uvh"
+
                         >НАША КОМАНДА</h3>
 
 

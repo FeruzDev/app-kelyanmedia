@@ -73,7 +73,9 @@ class Clients extends Component {
                     </h2>
                     <h3 data-aos="fade-right"
                         data-aos-easing="linear"
-                        data-aos-duration="1000">
+                        data-aos-duration="1000"
+                        className="styles_typicalWrapper__1_Uvh"
+                    >
                         КЛИЕНТЫ
                     </h3>
 
@@ -102,6 +104,8 @@ class Clients extends Component {
                         data-aos-duration="1000"
 
                         className="  mr-auto ml-auto "
+                        className="styles_typicalWrapper__1_Uvh"
+
                     >
                         Вы дочитали наше предложение?
                     </h3>
